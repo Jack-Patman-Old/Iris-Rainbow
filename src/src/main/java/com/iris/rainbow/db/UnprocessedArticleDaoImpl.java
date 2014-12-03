@@ -35,7 +35,7 @@ public class UnprocessedArticleDaoImpl implements UnprocessedArticleDao
 
         try
         {
-            String statement = "SELECT * FROM \"UnprocessedArticles\"";
+            String statement = "SELECT * FROM \"UnprocessedArticles\" WHERE \"PublicationDate\" > LOCALTIMESTAMP - INTERVAL '5 days'";
 
             preparedStatement = db.getConnection().prepareStatement(statement);
             results = preparedStatement.executeQuery();
