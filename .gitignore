@@ -41,3 +41,6 @@ Icon
 Network Trash Folder
 Temporary Items
 .apdisk
+
+src/src/main/resources/config.properties
+src/target/classes/config.properties

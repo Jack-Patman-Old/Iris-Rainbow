@@ -3,12 +3,9 @@ package com.iris.rainbow.properties;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-import java.io.IOException;
+import java.sql.DriverManager;
 import java.util.Properties;
 
-/**
- * Created by Jack on 07/11/2014.
- */
 public class Property
 {
 
