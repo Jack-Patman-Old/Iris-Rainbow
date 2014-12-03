@@ -3,7 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Iris-Rainbow.iml" filepath="$PROJECT_DIR$/Iris-Rainbow.iml" />
-      <module fileurl="file://$PROJECT_DIR$/test.iml" filepath="$PROJECT_DIR$/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/src/com.iris.rainbow.iml" filepath="$PROJECT_DIR$/src/com.iris.rainbow.iml" />
     </modules>
   </component>
 </project>

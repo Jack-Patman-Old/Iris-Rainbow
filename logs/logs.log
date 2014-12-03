@@ -1,0 +1,7 @@
+2014-11-07 14:10:28,682 DEBUG ? [main] Attempting to load properties file
+2014-11-07 14:10:28,683 ERROR ? [main] Fatal exception encountered attempting to load config.properties, exception was java.lang.NullPointerException
+2014-11-07 14:10:28,683 DEBUG ? [main] Successfully located and loaded config.properties
+2014-11-07 14:20:03,806 DEBUG ? [main] Attempting to load properties file
+2014-11-07 14:20:03,807 ERROR ? [main] Fatal exception encountered attempting to load config.properties, exception was java.lang.NullPointerException
+2014-11-07 14:20:03,807 DEBUG ? [main] Successfully located and loaded config.properties
+2014-11-07 14:53:54,194 DEBUG ? [main] Attempting to load properties file
