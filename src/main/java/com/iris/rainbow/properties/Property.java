@@ -11,7 +11,7 @@ public class Property
 
     private Logger logger = LogManager.getLogger(Property.class.getName());
     private Properties prop;
-
+    private static final String PROPERTIES_FILE = "config.properties";
 
     public static void main(String[] args)
     {
@@ -25,7 +25,7 @@ public class Property
         logger.debug("Attempting to load properties file");
         try
         {
-            prop.load(Property.class.getClassLoader().getResourceAsStream("config.properties"));
+            prop.load(Property.class.getClassLoader().getResourceAsStream(PROPERTIES_FILE));
         }
         catch (Exception e)
         {

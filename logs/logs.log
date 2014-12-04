@@ -461,3 +461,11 @@
 2014-12-03 17:15:48,316 DEBUG ? [main] Successfully opened connection with Database
 2014-12-03 17:15:48,618 DEBUG ? [main] Attempting to closeConnection connection with database
 2014-12-03 17:15:48,618 DEBUG ? [main] Successfully closed connection with database
+2014-12-04 02:12:36,034 DEBUG ? [main] Attempting to load properties file
+2014-12-04 02:12:36,035 DEBUG ? [main] Successfully located and loaded config.properties
+2014-12-04 02:12:58,059 DEBUG ? [main] Attempting to openConnection connection with database
+2014-12-04 02:12:58,060 DEBUG ? [main] Attempting to load properties file
+2014-12-04 02:12:58,061 DEBUG ? [main] Successfully located and loaded config.properties
+2014-12-04 02:12:58,323 DEBUG ? [main] Successfully opened connection with Database
+2014-12-04 02:12:58,593 DEBUG ? [main] Attempting to closeConnection connection with database
+2014-12-04 02:12:58,593 DEBUG ? [main] Successfully closed connection with database
