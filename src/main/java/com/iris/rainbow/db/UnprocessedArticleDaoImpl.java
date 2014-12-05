@@ -4,6 +4,7 @@ import com.iris.rainbow.article.ProcessedArticle;
 import com.iris.rainbow.article.UnprocessedArticle;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import org.jsoup.Jsoup;
 
 import java.sql.Date;
 import java.sql.PreparedStatement;
@@ -81,7 +82,7 @@ public class UnprocessedArticleDaoImpl implements UnprocessedArticleDao
             int articleId = results.getInt(idIndex);
             int feedId = results.getInt(feedIdIndex);
             String headline = results.getString(headlineIndex);
-            String description = results.getString(descriptionIndex);
+            String description = Jsoup.parse(results.getString(descriptionIndex)).text();
             Date publicationDate = results.getDate(publicationDateIndex);
             int urlId = results.getInt(urlIdIndex);
 
@@ -96,12 +97,7 @@ public class UnprocessedArticleDaoImpl implements UnprocessedArticleDao
 
 
 
-    /** Returns a single unprocessedArticle object, generated based on resultSet returned
-     * from the UnprocessedArticle table.
-     *
-     * @param results resultSet returned from UnprocessedArticle table
-     * @return Single UnprocessedArticle() object
-     **/
+
     @Override
     public void RemoveUnprocessedArticles(List<ProcessedArticle> processedArticles)
     {
