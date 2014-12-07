@@ -50,7 +50,7 @@ public class HeadlineGenerator
 
     private List<String> gatherEndNodes(List<String> headlines)
     {
-        List<String> endNodes = new ArrayList<>();
+        List<String> endNodes = new ArrayList<String>();
 
         for (String headline: headlines)
         {
@@ -66,7 +66,7 @@ public class HeadlineGenerator
 
     private List<String> gatherStartNodes(List<String> headlines)
     {
-        List<String> startNodes = new ArrayList<>();
+        List<String> startNodes = new ArrayList<String>();
 
         for (String headline: headlines)
         {
@@ -111,7 +111,7 @@ public class HeadlineGenerator
     private DirectedGraph<String,DefaultEdge> constructWordgraph(List<String> headlines)
     {
 
-        DirectedGraph<String, DefaultEdge> wordGraph = new DefaultDirectedGraph< >(DefaultEdge.class);
+        DirectedGraph<String, DefaultEdge> wordGraph = new DefaultDirectedGraph<String, DefaultEdge>(DefaultEdge.class);
         for (String headline: headlines)
         {
             String[] headlineWords = headline.split("\\s+");

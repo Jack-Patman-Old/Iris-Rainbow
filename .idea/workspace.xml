@@ -2,24 +2,112 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7794f603-e975-4349-8611-fcc0bf84715d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/HeadlineGenerator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jgrapht_jgrapht_jdk1_5_0_7_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\com.iris.rainbow.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\config.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\ignoredMatchTerms.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\resources\config.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\resources\ignoredMatchTerms.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\resources\log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\com.iris.rainbow.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\config.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\ignoredMatchTerms.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\resources\config.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\resources\ignoredMatchTerms.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\resources\log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\com.iris.rainbow.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\config.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\ignoredMatchTerms.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\config.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\ignoredMatchTerms.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\com.iris.rainbow.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\config.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\ignoredMatchTerms.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\config.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\ignoredMatchTerms.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\com.iris.rainbow.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\config.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\ignoredMatchTerms.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\config.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\ignoredMatchTerms.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\com.iris.rainbow.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\config.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\ignoredMatchTerms.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\config.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\ignoredMatchTerms.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\com.iris.rainbow.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\config.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\ignoredMatchTerms.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\config.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\ignoredMatchTerms.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\com.iris.rainbow.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\config.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\ignoredMatchTerms.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\config.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\ignoredMatchTerms.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\com.iris.rainbow.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\config.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\ignoredMatchTerms.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\pom.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\config.properties" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\ignoredMatchTerms.txt" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\resources\log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\log4j2.xml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\target\classes\pom.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/reader/ArticleReader.class" afterPath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/reader/ArticleReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/db/DAOManager.class" afterPath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/db/DAOManager.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/article/HeadlineGenerator.class" afterPath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/article/HeadlineGenerator.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/article/ProcessedArticle.class" afterPath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/article/ProcessedArticle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/properties/Property.class" afterPath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/properties/Property.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/article/RelatedArticleFinder.class" afterPath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/article/RelatedArticleFinder.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/article/UnprocessedArticle.class" afterPath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/article/UnprocessedArticle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/db/UnprocessedArticleDao.class" afterPath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/db/UnprocessedArticleDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/db/UnprocessedArticleDaoImpl.class" afterPath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/db/UnprocessedArticleDaoImpl.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/HeadlineGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/HeadlineGenerator.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/MANIFEST.MF" afterPath="$PROJECT_DIR$/src/target/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/MANIFEST.MF" afterPath="$PROJECT_DIR$/src/target/classes/target/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/MANIFEST.MF" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/MANIFEST.MF" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com.iris.rainbow.iml" afterPath="$PROJECT_DIR$/src/com.iris.rainbow.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/com.iris.rainbow.iml" afterPath="$PROJECT_DIR$/src/target/classes/com.iris.rainbow.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/com.iris.rainbow.iml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/com.iris.rainbow.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/com.iris.rainbow.iml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/com.iris.rainbow.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/logs.log" afterPath="$PROJECT_DIR$/logs/logs.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pom.xml" afterPath="$PROJECT_DIR$/src/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/pom.xml" afterPath="$PROJECT_DIR$/src/target/classes/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/pom.xml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="test.iws" />
@@ -46,19 +134,37 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="ErrorTreeViewConfiguration">
+    <option name="hideWarnings" value="true" />
+    <option name="HIDE_WARNINGS" value="true" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="Iris-Rainbow" />
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HeadlineGenerator.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/HeadlineGenerator.java">
+      <file leaf-file-name="ArticleReader.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6887661" vertical-offset="289" max-vertical-offset="2414">
-              <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.37384897" vertical-offset="120" max-vertical-offset="663">
+              <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
               <folding>
                 <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeadlineGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/HeadlineGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1718" max-vertical-offset="2414">
+              <caret line="113" column="99" selection-start-line="113" selection-start-column="99" selection-end-line="113" selection-end-column="99" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1749#1757#0" expanded="true" />
+                <element signature="e#2176#2184#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -67,9 +173,73 @@
       <file leaf-file-name="UnprocessedArticleDaoImpl.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="949" max-vertical-offset="1683">
-              <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="142" max-vertical-offset="1683">
+              <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
+              <folding>
+                <marker date="1417979611826" expanded="true" signature="1141:1323" placeholder="SELECT * FRO..UnprocessedArticles..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcessedArticle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
+              <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#755#756#0" expanded="false" />
+                <element signature="e#786#787#0" expanded="false" />
+                <element signature="e#825#826#0" expanded="false" />
+                <element signature="e#865#866#0" expanded="false" />
+                <element signature="e#907#908#0" expanded="false" />
+                <element signature="e#941#942#0" expanded="false" />
+                <element signature="e#985#986#0" expanded="false" />
+                <element signature="e#1023#1024#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RelatedArticleFinder.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1468" max-vertical-offset="2907">
+              <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#594#612#0" expanded="true" />
+                <element signature="e#672#692#0" expanded="true" />
+                <element signature="e#836#844#0" expanded="true" />
+                <element signature="e#909#917#0" expanded="true" />
+                <element signature="e#1582#1591#0" expanded="true" />
+                <element signature="e#1649#1657#0" expanded="true" />
+                <element signature="e#2534#2542#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnprocessedArticle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="816">
+              <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+              <folding>
+                <element signature="e#673#674#0" expanded="false" />
+                <element signature="e#705#706#0" expanded="false" />
+                <element signature="e#739#740#0" expanded="false" />
+                <element signature="e#768#769#0" expanded="false" />
+                <element signature="e#801#802#0" expanded="false" />
+                <element signature="e#829#830#0" expanded="false" />
+                <element signature="e#868#869#0" expanded="false" />
+                <element signature="e#899#900#0" expanded="false" />
+                <element signature="e#941#942#0" expanded="false" />
+                <element signature="e#975#976#0" expanded="false" />
+                <element signature="e#1019#1020#0" expanded="false" />
+                <element signature="e#1057#1058#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -110,11 +280,11 @@
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessableArticles.java" />
         <option value="$PROJECT_DIR$/src/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/HeadlineGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java" />
       </list>
     </option>
   </component>
@@ -710,12 +880,12 @@
       <workItem from="1417875139475" duration="141000" />
       <workItem from="1417878754878" duration="3361000" />
       <workItem from="1417952386511" duration="4551000" />
-      <workItem from="1417970970568" duration="6840000" />
+      <workItem from="1417970970568" duration="8604000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74068000" />
+    <option name="totallyTimeSpent" value="75832000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -799,13 +969,13 @@
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java</url>
-          <line>23</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java</url>
+          <line>97</line>
           <properties />
-          <option name="timeStamp" value="168" />
+          <option name="timeStamp" value="184" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="184" />
+      <option name="time" value="185" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -838,6 +1008,8 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1749#1757#0" expanded="true" />
+            <element signature="e#2176#2184#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -855,7 +1027,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="566" max-vertical-offset="2822">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -893,7 +1065,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2720">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -913,7 +1085,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2720">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -936,13 +1108,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
           <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.3775322" vertical-offset="273" max-vertical-offset="816">
-          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
           <folding />
         </state>
       </provider>
@@ -952,16 +1117,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="1" max-vertical-offset="663">
           <caret line="8" column="35" selection-start-line="8" selection-start-column="35" selection-end-line="8" selection-end-column="35" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="566" max-vertical-offset="2822">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -975,34 +1130,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25660378" vertical-offset="0" max-vertical-offset="663">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
           <caret line="9" column="31" selection-start-line="9" selection-start-column="31" selection-end-line="9" selection-end-column="31" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#755#756#0" expanded="false" />
+            <element signature="e#786#787#0" expanded="false" />
+            <element signature="e#825#826#0" expanded="false" />
+            <element signature="e#865#866#0" expanded="false" />
+            <element signature="e#907#908#0" expanded="false" />
+            <element signature="e#941#942#0" expanded="false" />
+            <element signature="e#985#986#0" expanded="false" />
+            <element signature="e#1023#1024#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.27992633" vertical-offset="137" max-vertical-offset="680">
-          <caret line="17" column="33" selection-start-line="17" selection-start-column="33" selection-end-line="17" selection-end-column="33" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="816">
+          <caret line="4" column="51" selection-start-line="4" selection-start-column="51" selection-end-line="4" selection-end-column="51" />
+          <folding>
+            <element signature="e#673#674#0" expanded="false" />
+            <element signature="e#705#706#0" expanded="false" />
+            <element signature="e#739#740#0" expanded="false" />
+            <element signature="e#768#769#0" expanded="false" />
+            <element signature="e#801#802#0" expanded="false" />
+            <element signature="e#829#830#0" expanded="false" />
+            <element signature="e#868#869#0" expanded="false" />
+            <element signature="e#899#900#0" expanded="false" />
+            <element signature="e#941#942#0" expanded="false" />
+            <element signature="e#975#976#0" expanded="false" />
+            <element signature="e#1019#1020#0" expanded="false" />
+            <element signature="e#1057#1058#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/HeadlineGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1718" max-vertical-offset="2414">
+          <caret line="113" column="99" selection-start-line="113" selection-start-column="99" selection-end-line="113" selection-end-column="99" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#1749#1757#0" expanded="true" />
+            <element signature="e#2176#2184#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="949" max-vertical-offset="1683">
-          <caret line="94" column="24" selection-start-line="94" selection-start-column="24" selection-end-line="94" selection-end-column="24" />
-          <folding />
+        <state vertical-scroll-proportion="0.0" vertical-offset="142" max-vertical-offset="1683">
+          <caret line="34" column="76" selection-start-line="34" selection-start-column="76" selection-end-line="34" selection-end-column="76" />
+          <folding>
+            <marker date="1417979611826" expanded="true" signature="1141:1323" placeholder="SELECT * FRO..UnprocessedArticles..." />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/HeadlineGenerator.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6887661" vertical-offset="289" max-vertical-offset="2414">
-          <caret line="39" column="25" selection-start-line="39" selection-start-column="25" selection-end-line="39" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1468" max-vertical-offset="2907">
+          <caret line="97" column="0" selection-start-line="97" selection-start-column="0" selection-end-line="97" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#594#612#0" expanded="true" />
+            <element signature="e#672#692#0" expanded="true" />
+            <element signature="e#836#844#0" expanded="true" />
+            <element signature="e#909#917#0" expanded="true" />
+            <element signature="e#1582#1591#0" expanded="true" />
+            <element signature="e#1649#1657#0" expanded="true" />
+            <element signature="e#2534#2542#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.37384897" vertical-offset="120" max-vertical-offset="663">
+          <caret line="19" column="67" selection-start-line="19" selection-start-column="67" selection-end-line="19" selection-end-column="67" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1049,7 +1256,7 @@
       </state>
       <state key="JdkListConfigurable.UI">
         <settings>
-          <last-edited>1.7</last-edited>
+          <last-edited>1.6</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1061,12 +1268,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Iris-Rainbow</last-edited>
+          <last-edited>com.iris.rainbow</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.6" />
               </list>
             </option>
           </splitter-proportions>

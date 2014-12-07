@@ -1294,3 +1294,17 @@
 2014-12-07 18:34:17,035 ERROR ? [main] Fatal exception encountered attempting to load all unprocessed articles, exception was java.lang.IllegalArgumentException: String input must not be null
 2014-12-07 18:34:17,035 DEBUG ? [main] Attempting to closeConnection connection with database
 2014-12-07 18:34:17,036 DEBUG ? [main] Successfully closed connection with database
+2014-12-07 18:55:10,481 DEBUG ? [main] Attempting to openConnection connection with database
+2014-12-07 18:55:10,483 DEBUG ? [main] Attempting to load properties file
+2014-12-07 18:55:10,483 DEBUG ? [main] Successfully located and loaded config.properties
+2014-12-07 18:55:10,584 DEBUG ? [main] Successfully opened connection with Database
+2014-12-07 18:55:11,168 ERROR ? [main] Fatal exception encountered attempting to load all unprocessed articles, exception was java.lang.IllegalArgumentException: String input must not be null
+2014-12-07 18:55:11,168 DEBUG ? [main] Attempting to closeConnection connection with database
+2014-12-07 18:55:11,168 DEBUG ? [main] Successfully closed connection with database
+2014-12-07 19:14:28,992 DEBUG ? [main] Attempting to openConnection connection with database
+2014-12-07 19:14:28,994 DEBUG ? [main] Attempting to load properties file
+2014-12-07 19:14:28,995 DEBUG ? [main] Successfully located and loaded config.properties
+2014-12-07 19:14:29,317 DEBUG ? [main] Successfully opened connection with Database
+2014-12-07 19:14:29,955 ERROR ? [main] Fatal exception encountered attempting to load all unprocessed articles, exception was java.lang.IllegalArgumentException: String input must not be null
+2014-12-07 19:14:29,955 DEBUG ? [main] Attempting to closeConnection connection with database
+2014-12-07 19:14:29,956 DEBUG ? [main] Successfully closed connection with database

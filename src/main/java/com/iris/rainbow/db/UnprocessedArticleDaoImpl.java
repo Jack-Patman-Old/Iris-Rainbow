@@ -32,7 +32,7 @@ public class UnprocessedArticleDaoImpl implements UnprocessedArticleDao
     @Override
     public List<UnprocessedArticle> GetUnprocessedArticles()
     {
-        List<UnprocessedArticle> articles = new ArrayList<>();
+        List<UnprocessedArticle> articles = new ArrayList<UnprocessedArticle>();
 
         try
         {

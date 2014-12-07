@@ -1,6 +1,8 @@
 package com.iris.rainbow.article;
 
+import java.io.BufferedReader;
 import java.io.File;
+import java.io.FileReader;
 import java.io.IOException;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
@@ -18,13 +20,13 @@ public class RelatedArticleFinder
     {
         ignoredTerms = loadIgnoredTerms();
 
-        List<ProcessedArticle> processedArticles = new ArrayList<>();
-        List<UnprocessedArticle> matches = new ArrayList<>();
+        List<ProcessedArticle> processedArticles = new ArrayList<ProcessedArticle>();
+        List<UnprocessedArticle> matches = new ArrayList<UnprocessedArticle>();
 
         for (UnprocessedArticle originalArticle : unprocessedArticles)
         {
-            List<String> matchingHeadlines = new ArrayList<>();
-            List<String> matchingDescriptions = new ArrayList<>();
+            List<String> matchingHeadlines = new ArrayList<String>();
+            List<String> matchingDescriptions = new ArrayList<String>();
 
             // Ensure that original article is no longer part of the search candidates
 
@@ -41,8 +43,8 @@ public class RelatedArticleFinder
 
             if (matches.size() > 0)
             {
-                List<Integer> urlIds = new ArrayList<>();
-                List<String> headlines = new ArrayList<>();
+                List<Integer> urlIds = new ArrayList<Integer>();
+                List<String> headlines = new ArrayList<String>();
 
                 urlIds.add(originalArticle.getUrlId());
                 headlines.add(originalArticle.getHeadline());
@@ -67,22 +69,25 @@ public class RelatedArticleFinder
 
     private List<String> loadIgnoredTerms()
     {
-        List<java.lang.String> result = new ArrayList<>();
+        List<String> result = new ArrayList<String>();
 
-        final java.lang.String workingDir = System.getProperty("user.dir");
+        final String workingDir = System.getProperty("user.dir");
 
-        File file = new File(workingDir + "//src//resources//ignoredMatchTerms.txt");
 
-        try (Scanner scanner = new Scanner(file))
+        BufferedReader reader = null;
+
+        try
         {
 
-            while (scanner.hasNextLine())
+            reader = new BufferedReader(new FileReader(workingDir + "//src//resources//ignoredMatchTerms.txt"));
+            String currentLine;
+
+            while ((currentLine = reader.readLine()) != null)
             {
-                java.lang.String line = scanner.nextLine();
-                result.add(line.toLowerCase());
+                result.add(currentLine.toLowerCase());
             }
 
-            scanner.close();
+            reader.close();
 
         }
         catch (IOException e)

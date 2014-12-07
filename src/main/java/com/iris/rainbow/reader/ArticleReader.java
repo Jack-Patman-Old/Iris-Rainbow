@@ -21,7 +21,6 @@ public class ArticleReader
 
         RelatedArticleFinder finder = new RelatedArticleFinder();
         List<ProcessedArticle> processedArticles = finder.processArticles(unprocessedArticles);
-        System.out.println(":)");
 
         /* boolean successfullyProcessedArticles = processedArticleDao.WriteProcessedArticles(processedArticle);
         * if (successfullyProcessedArticles)
