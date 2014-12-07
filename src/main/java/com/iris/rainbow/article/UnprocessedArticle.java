@@ -2,7 +2,7 @@ package com.iris.rainbow.article;
 
 import java.sql.Date;
 
-public class UnprocessedArticle
+public class UnprocessedArticle implements Runnable
 {
     private int articleId;
     private int feedId;
@@ -50,5 +50,11 @@ public class UnprocessedArticle
     public Date getPublicationDate()
     {
         return publicationDate;
+    }
+
+    @Override
+    public void run()
+    {
+
     }
 }

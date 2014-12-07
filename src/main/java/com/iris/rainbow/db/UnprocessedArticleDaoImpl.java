@@ -32,27 +32,27 @@ public class UnprocessedArticleDaoImpl implements UnprocessedArticleDao
     @Override
     public List<UnprocessedArticle> GetUnprocessedArticles()
     {
-        List<UnprocessedArticle> article = new ArrayList<>();
+        List<UnprocessedArticle> articles = new ArrayList<>();
 
         try
         {
-            String statement = "SELECT * FROM \"UnprocessedArticles\" WHERE \"PublicationDate\" > LOCALTIMESTAMP - INTERVAL '5 days'";
+            String statement = "SELECT * FROM \"UnprocessedArticles\" ua RIGHT OUTER JOIN \"UnprocessedArticleUrls\" uau ON ua.\"UrlId\" = uau.\"Id\" WHERE uau.\"DateProcessed\" > LOCALTIMESTAMP - INTERVAL '1 days' ";
 
             preparedStatement = db.getConnection().prepareStatement(statement);
             results = preparedStatement.executeQuery();
 
             while (results.next())
             {
-                article.add(ParseUnprocessedArticle(results));
+                articles.add(ParseUnprocessedArticle(results));
             }
 
-            return article;
+            return articles;
 
         }
         catch (Exception e)
         {
             logger.error("Fatal exception encountered attempting to load all unprocessed articles, exception was " + e);
-            return article;
+            return articles;
         }
         finally
         {
@@ -78,6 +78,7 @@ public class UnprocessedArticleDaoImpl implements UnprocessedArticleDao
             int descriptionIndex   = results.findColumn("Description");
             int publicationDateIndex   = results.findColumn("PublicationDate");
             int urlIdIndex   = results.findColumn("UrlId");
+            int a   = results.findColumn("UrlId");
 
             int articleId = results.getInt(idIndex);
             int feedId = results.getInt(feedIdIndex);

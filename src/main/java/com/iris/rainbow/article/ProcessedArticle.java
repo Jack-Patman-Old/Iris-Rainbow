@@ -6,15 +6,17 @@ import java.util.List;
 public class ProcessedArticle
 {
     private int category;
-    private String headline;
+    private String aggregateHeadline;
     private String description;
     private Date publicationDate;
     private List<Integer> urlIds;
 
-    public ProcessedArticle(int categoryId, String headline, String description, Date publicationDate, List<Integer> urlIds)
+    public ProcessedArticle(int categoryId, List<String> headlines, String description, Date publicationDate, List<Integer> urlIds)
     {
+        HeadlineGenerator generator = new HeadlineGenerator();
+        this.aggregateHeadline = generator.GenerateAggregateHeadline(headlines);
+
         this.category = categoryId;
-        this.headline = headline;
         this.description = description;
         this.publicationDate = publicationDate;
         this.urlIds = urlIds;
@@ -27,7 +29,7 @@ public class ProcessedArticle
 
     public String getHeadline()
     {
-        return headline;
+        return aggregateHeadline;
     }
 
     public String getDescription()
@@ -39,4 +41,6 @@ public class ProcessedArticle
     {
         return publicationDate;
     }
+
+
 }
