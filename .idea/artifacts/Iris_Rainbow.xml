@@ -1,0 +1,6 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Iris-Rainbow">
+    <output-path>$PROJECT_DIR$/out/artifacts/Iris_Rainbow</output-path>
+    <root id="archive" name="Iris-Rainbow.jar" />
+  </artifact>
+</component>

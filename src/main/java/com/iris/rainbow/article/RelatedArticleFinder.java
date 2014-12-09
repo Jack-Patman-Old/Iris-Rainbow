@@ -1,9 +1,6 @@
 package com.iris.rainbow.article;
 
-import java.io.BufferedReader;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
+import java.io.*;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
@@ -81,7 +78,8 @@ public class RelatedArticleFinder
         try
         {
 
-            reader = new BufferedReader(new FileReader(workingDir + "//src//resources//ignoredMatchTerms.txt"));
+            InputStream in = getClass().getResourceAsStream("/ignoredMatchTerms.txt");
+            reader = new BufferedReader(new InputStreamReader(in));
             String currentLine;
 
             while ((currentLine = reader.readLine()) != null)

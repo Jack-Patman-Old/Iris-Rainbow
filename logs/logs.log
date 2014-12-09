@@ -1782,3 +1782,15 @@
 2014-12-09 14:16:52,810 DEBUG ? [main] Attempting to load properties file
 2014-12-09 14:16:52,811 DEBUG ? [main] Successfully located and loaded config.properties
 2014-12-09 14:16:52,872 DEBUG ? [main] Successfully opened connection with Database
+2014-12-09 14:51:55,161 DEBUG ? [main] Attempting to openConnection connection with database
+2014-12-09 14:51:55,163 DEBUG ? [main] Attempting to load properties file
+2014-12-09 14:51:55,163 DEBUG ? [main] Successfully located and loaded config.properties
+2014-12-09 14:51:55,264 DEBUG ? [main] Successfully opened connection with Database
+2014-12-09 14:51:55,299 DEBUG ? [main] Attempting to closeConnection connection with database
+2014-12-09 14:51:55,299 DEBUG ? [main] Successfully closed connection with database
+2014-12-09 15:07:18,067 DEBUG ? [main] Attempting to openConnection connection with database
+2014-12-09 15:07:18,068 DEBUG ? [main] Attempting to load properties file
+2014-12-09 15:07:18,069 DEBUG ? [main] Successfully located and loaded config.properties
+2014-12-09 15:07:18,163 DEBUG ? [main] Successfully opened connection with Database
+2014-12-09 15:07:18,198 DEBUG ? [main] Attempting to closeConnection connection with database
+2014-12-09 15:07:18,198 DEBUG ? [main] Successfully closed connection with database

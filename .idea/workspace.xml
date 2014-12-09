@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Iris-Rainbow:jar" />
+    </artifacts-to-build>
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7794f603-e975-4349-8611-fcc0bf84715d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/ProcessedArticleDao.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/ProcessedArticleDaoImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/DAOManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/DAOManager.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Iris_Rainbow.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/Iris_Rainbow_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/logs.log" afterPath="$PROJECT_DIR$/logs/logs.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -51,42 +51,41 @@
       <file leaf-file-name="ArticleReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="561">
-              <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UnprocessedArticleDaoImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java">
+      <file leaf-file-name="Property.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/properties/Property.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="1.5509434" vertical-offset="810" max-vertical-offset="2227">
-              <caret line="109" column="12" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+              <caret line="24" column="21" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HeadlineGenerator.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/HeadlineGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1325" max-vertical-offset="2244">
+              <caret line="114" column="17" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="17" />
               <folding>
-                <marker date="1418134520911" expanded="true" signature="1103:1285" placeholder="SELECT * FRO..UnprocessedArticles..." />
-                <marker date="1418134520911" expanded="true" signature="4046:4101" placeholder="DELETE FROM ..." />
-                <marker date="1418134520911" expanded="true" signature="4407:4448" placeholder="DELETE FROM ..." />
-                <marker date="1418134520911" expanded="true" signature="4407:4453" placeholder="DELETE FROM ..." />
-                <marker date="1418134520911" expanded="true" signature="4407:4459" placeholder="DELETE FROM ..." />
-                <marker date="1418134520911" expanded="true" signature="4407:4460" placeholder="DELETE FROM ..." />
+                <element signature="e#3520#3541#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ProcessedArticleDaoImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/ProcessedArticleDaoImpl.java">
+      <file leaf-file-name="RelatedArticleFinder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="1938">
-              <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#2245#2254#0" expanded="true" />
-                <marker date="1418134199008" expanded="true" signature="1421:1591" placeholder="INSERT INTO ..." />
-                <marker date="1418134199008" expanded="true" signature="2338:2456" placeholder="INSERT INTO ..." />
-                <marker date="1418134199008" expanded="true" signature="3014:3142" placeholder="INSERT INTO ..." />
-              </folding>
+            <state vertical-scroll-proportion="0.70902395" vertical-offset="1179" max-vertical-offset="2805">
+              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -131,10 +130,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/DAOManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/ProcessedArticleDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java" />
       </list>
     </option>
   </component>
@@ -179,7 +178,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -209,6 +207,42 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Iris-Rainbow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Iris-Rainbow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Iris-Rainbow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Iris-Rainbow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -319,6 +353,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,7 +371,7 @@
     <property name="FullScreen" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="dynamic.classpath" value="false" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Artifacts" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="LayoutCode.rearrangeEntriesJava" value="true" />
@@ -730,7 +765,9 @@
       <workItem from="1418128472649" duration="1744000" />
       <workItem from="1418130236991" duration="18000" />
       <workItem from="1418130258489" duration="450000" />
-      <workItem from="1418131035457" duration="3630000" />
+      <workItem from="1418131035457" duration="3885000" />
+      <workItem from="1418135511734" duration="823000" />
+      <workItem from="1418137535367" duration="118000" />
     </task>
     <task id="LOCAL-00001" summary="Changed project JDK to 1.6">
       <created>1417979747725</created>
@@ -742,7 +779,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="82333000" />
+    <option name="totallyTimeSpent" value="83529000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -833,8 +870,14 @@
           <properties />
           <option name="timeStamp" value="206" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java</url>
+          <line>80</line>
+          <properties />
+          <option name="timeStamp" value="207" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="207" />
+      <option name="time" value="208" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -843,11 +886,82 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="2227">
+          <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
+          <folding>
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..UnprocessedArticles..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/ProcessedArticleDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="1938">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1418134199008" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1418134199008" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1418134199008" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="561">
+          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2227">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..UnprocessedArticles..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/ProcessedArticleDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="1938">
+          <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1418134199008" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1418134199008" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1418134199008" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="680">
           <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -855,9 +969,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="272">
           <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -867,10 +978,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2245#2254#0" expanded="true" />
-            <marker date="1418134199008" expanded="true" signature="1421:1591" placeholder="INSERT INTO ..." />
-            <marker date="1418134199008" expanded="true" signature="2338:2456" placeholder="INSERT INTO ..." />
-            <marker date="1418134199008" expanded="true" signature="3014:3142" placeholder="INSERT INTO ..." />
+            <marker date="1418134199008" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1418134199008" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1418134199008" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -888,12 +998,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1734">
           <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
-            <marker date="1418134520911" expanded="true" signature="1103:1285" placeholder="SELECT * FRO..UnprocessedArticles..." />
-            <marker date="1418134520911" expanded="true" signature="4046:4101" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4448" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4453" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4459" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4460" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..UnprocessedArticles..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -902,7 +1012,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="680">
           <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -910,9 +1019,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="272">
           <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -922,10 +1028,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2245#2254#0" expanded="true" />
-            <marker date="1418134199008" expanded="true" signature="1421:1591" placeholder="INSERT INTO ..." />
-            <marker date="1418134199008" expanded="true" signature="2338:2456" placeholder="INSERT INTO ..." />
-            <marker date="1418134199008" expanded="true" signature="3014:3142" placeholder="INSERT INTO ..." />
+            <marker date="1418134199008" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1418134199008" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1418134199008" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -943,12 +1048,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1734">
           <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
-            <marker date="1418134520911" expanded="true" signature="1103:1285" placeholder="SELECT * FRO..UnprocessedArticles..." />
-            <marker date="1418134520911" expanded="true" signature="4046:4101" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4448" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4453" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4459" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4460" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..UnprocessedArticles..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -957,7 +1062,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="527" max-vertical-offset="680">
           <caret line="44" column="53" selection-start-line="44" selection-start-column="53" selection-end-line="44" selection-end-column="53" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -965,9 +1069,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="136" max-vertical-offset="272">
           <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -977,10 +1078,9 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2245#2254#0" expanded="true" />
-            <marker date="1418134199008" expanded="true" signature="1421:1591" placeholder="INSERT INTO ..." />
-            <marker date="1418134199008" expanded="true" signature="2338:2456" placeholder="INSERT INTO ..." />
-            <marker date="1418134199008" expanded="true" signature="3014:3142" placeholder="INSERT INTO ..." />
+            <marker date="1418134199008" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1418134199008" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1418134199008" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
           </folding>
         </state>
       </provider>
@@ -998,12 +1098,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="442" max-vertical-offset="1734">
           <caret line="37" column="9" selection-start-line="37" selection-start-column="9" selection-end-line="37" selection-end-column="9" />
           <folding>
-            <marker date="1418134520911" expanded="true" signature="1103:1285" placeholder="SELECT * FRO..UnprocessedArticles..." />
-            <marker date="1418134520911" expanded="true" signature="4046:4101" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4448" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4453" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4459" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4460" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..UnprocessedArticles..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -1012,7 +1112,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="663">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1027,7 +1126,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="663">
           <caret line="16" column="45" selection-start-line="16" selection-start-column="45" selection-end-line="16" selection-end-column="45" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1050,17 +1148,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="566" max-vertical-offset="2822">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#594#612#0" expanded="true" />
-            <element signature="e#672#692#0" expanded="true" />
-            <element signature="e#836#844#0" expanded="true" />
-            <element signature="e#909#917#0" expanded="true" />
-            <element signature="e#1582#1591#0" expanded="true" />
-            <element signature="e#1644#1652#0" expanded="true" />
-            <element signature="e#1710#1718#0" expanded="true" />
-            <element signature="e#2649#2657#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1076,12 +1163,12 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="351" max-vertical-offset="1683">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
           <folding>
-            <marker date="1418134520911" expanded="true" signature="1103:1285" placeholder="SELECT * FRO..UnprocessedArticles..." />
-            <marker date="1418134520911" expanded="true" signature="4046:4101" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4448" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4453" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4459" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4460" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..UnprocessedArticles..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
           </folding>
         </state>
       </provider>
@@ -1097,17 +1184,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2720">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#594#612#0" expanded="true" />
-            <element signature="e#672#692#0" expanded="true" />
-            <element signature="e#836#844#0" expanded="true" />
-            <element signature="e#909#917#0" expanded="true" />
-            <element signature="e#1582#1591#0" expanded="true" />
-            <element signature="e#1644#1652#0" expanded="true" />
-            <element signature="e#1710#1718#0" expanded="true" />
-            <element signature="e#2649#2657#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1122,17 +1198,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2720">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#594#612#0" expanded="true" />
-            <element signature="e#672#692#0" expanded="true" />
-            <element signature="e#836#844#0" expanded="true" />
-            <element signature="e#909#917#0" expanded="true" />
-            <element signature="e#1582#1591#0" expanded="true" />
-            <element signature="e#1644#1652#0" expanded="true" />
-            <element signature="e#1710#1718#0" expanded="true" />
-            <element signature="e#2649#2657#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1158,53 +1223,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/properties/Property.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.53222835" vertical-offset="0" max-vertical-offset="714">
-          <caret line="24" column="21" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/HeadlineGenerator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37384897" vertical-offset="1718" max-vertical-offset="2414">
-          <caret line="113" column="99" selection-start-line="113" selection-start-column="99" selection-end-line="113" selection-end-column="99" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/ProcessedArticleDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
           <caret line="8" column="77" selection-start-line="8" selection-start-column="77" selection-end-line="8" selection-end-column="77" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.0509031" vertical-offset="1043" max-vertical-offset="2941">
-          <caret line="99" column="0" selection-start-line="99" selection-start-column="0" selection-end-line="99" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#594#612#0" expanded="true" />
-            <element signature="e#672#692#0" expanded="true" />
-            <element signature="e#836#844#0" expanded="true" />
-            <element signature="e#909#917#0" expanded="true" />
-            <element signature="e#1582#1591#0" expanded="true" />
-            <element signature="e#1644#1652#0" expanded="true" />
-            <element signature="e#1710#1718#0" expanded="true" />
-            <element signature="e#2649#2657#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.05090312" vertical-offset="190" max-vertical-offset="799">
-          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1212,7 +1234,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34851485" vertical-offset="21686" max-vertical-offset="34425">
           <caret line="1346" column="15" selection-start-line="1346" selection-start-column="15" selection-end-line="1346" selection-end-column="15" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1220,7 +1241,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.30541873" vertical-offset="783" max-vertical-offset="1428">
           <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1228,7 +1248,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="205" max-vertical-offset="748">
           <caret line="21" column="33" selection-start-line="21" selection-start-column="33" selection-end-line="21" selection-end-column="33" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1236,7 +1255,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29720855" vertical-offset="57" max-vertical-offset="9061">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1244,9 +1262,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29720855" vertical-offset="2692" max-vertical-offset="9996">
           <caret line="176" column="0" selection-start-line="176" selection-start-column="0" selection-end-line="176" selection-end-column="0" />
-          <folding>
-            <element signature="e#7096#7097#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1254,11 +1269,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.29720855" vertical-offset="5310" max-vertical-offset="12359">
           <caret line="338" column="0" selection-start-line="338" selection-start-column="0" selection-end-line="338" selection-end-column="0" />
-          <folding>
-            <element signature="e#9378#9379#0" expanded="false" />
-            <element signature="e#9403#9404#0" expanded="false" />
-            <element signature="e#11501#11502#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1266,44 +1276,76 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.27914613" vertical-offset="0" max-vertical-offset="609">
           <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/ProcessedArticleDaoImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="295" max-vertical-offset="1938">
+        <state vertical-scroll-proportion="0.1969532" vertical-offset="295" max-vertical-offset="1938">
           <caret line="31" column="0" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#2245#2254#0" expanded="true" />
-            <marker date="1418134199008" expanded="true" signature="1421:1591" placeholder="INSERT INTO ..." />
-            <marker date="1418134199008" expanded="true" signature="2338:2456" placeholder="INSERT INTO ..." />
-            <marker date="1418134199008" expanded="true" signature="3014:3142" placeholder="INSERT INTO ..." />
+            <marker date="1418134199008" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1418134199008" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+            <marker date="1418134199008" expanded="true" signature="-1:-1" placeholder="INSERT INTO ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="810" max-vertical-offset="2227">
+          <caret line="81" column="12" selection-start-line="81" selection-start-column="12" selection-end-line="81" selection-end-column="12" />
+          <folding>
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="SELECT * FRO..UnprocessedArticles..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+            <marker date="1418134520911" expanded="true" signature="-1:-1" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.24047878" vertical-offset="0" max-vertical-offset="919">
+          <caret line="13" column="0" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/properties/Property.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
+          <caret line="24" column="21" selection-start-line="24" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/HeadlineGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1325" max-vertical-offset="2244">
+          <caret line="114" column="17" selection-start-line="114" selection-start-column="16" selection-end-line="114" selection-end-column="17" />
+          <folding>
+            <element signature="e#3520#3541#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="18" max-vertical-offset="561">
-          <caret line="30" column="0" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.5509434" vertical-offset="810" max-vertical-offset="2227">
-          <caret line="109" column="12" selection-start-line="109" selection-start-column="12" selection-end-line="109" selection-end-column="12" />
-          <folding>
-            <marker date="1418134520911" expanded="true" signature="1103:1285" placeholder="SELECT * FRO..UnprocessedArticles..." />
-            <marker date="1418134520911" expanded="true" signature="4046:4101" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4448" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4453" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4459" placeholder="DELETE FROM ..." />
-            <marker date="1418134520911" expanded="true" signature="4407:4460" placeholder="DELETE FROM ..." />
-          </folding>
+        <state vertical-scroll-proportion="0.70902395" vertical-offset="1179" max-vertical-offset="2805">
+          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1313,10 +1355,12 @@
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
           <artifact-editor />
+          <last-edited>Iris-Rainbow:jar</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
+                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
