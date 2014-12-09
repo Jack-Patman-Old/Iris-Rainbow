@@ -2,7 +2,7 @@ package com.iris.rainbow.article;
 
 import java.sql.Date;
 
-public class UnprocessedArticle implements Runnable
+public class UnprocessedArticle
 {
     private int articleId;
     private int feedId;
@@ -10,13 +10,16 @@ public class UnprocessedArticle implements Runnable
 
     private String headline;
     private String description;
+    private String url;
+
     private Date publicationDate;
 
-    public UnprocessedArticle(int articleId, int feedId, int urlId, String headline, String description, Date publicationDate)
+    public UnprocessedArticle(int articleId, int feedId, int urlId, String headline, String description, String url, Date publicationDate)
     {
         this.articleId = articleId;
         this.feedId = feedId;
         this.urlId = urlId;
+        this.url = url;
         this.headline = headline;
         this.description = description;
         this.publicationDate = publicationDate;
@@ -30,6 +33,11 @@ public class UnprocessedArticle implements Runnable
     public int getFeedId()
     {
         return feedId;
+    }
+
+    public String getUrl()
+    {
+        return url;
     }
 
     public int getUrlId()
@@ -50,11 +58,5 @@ public class UnprocessedArticle implements Runnable
     public Date getPublicationDate()
     {
         return publicationDate;
-    }
-
-    @Override
-    public void run()
-    {
-
     }
 }

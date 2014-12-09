@@ -44,6 +44,7 @@ public class RelatedArticleFinder
             if (matches.size() > 0)
             {
                 List<Integer> urlIds = new ArrayList<Integer>();
+                List<String> urls = new ArrayList<String>();
                 List<String> headlines = new ArrayList<String>();
 
                 urlIds.add(originalArticle.getUrlId());
@@ -55,11 +56,12 @@ public class RelatedArticleFinder
                 {
                     UnprocessedArticle article = matchesIterator.next();
                     headlines.add(article.getHeadline());
+                    urls.add(article.getUrl());
                     urlIds.add(article.getUrlId());
                     matchesIterator.remove();
                 }
 
-                processedArticles.add(new ProcessedArticle(0, headlines, firstMatch.getDescription(), firstMatch.getPublicationDate(), urlIds));
+                processedArticles.add(new ProcessedArticle(0, headlines, firstMatch.getDescription(), firstMatch.getPublicationDate(), urlIds, urls));
             }
 
         }

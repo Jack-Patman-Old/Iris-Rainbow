@@ -64,7 +64,7 @@ public class DAOManager
     {
         try
         {
-            if (con != null && con.isValid(0))
+            if (con != null && !con.isClosed())
             {
                 return con;
             }

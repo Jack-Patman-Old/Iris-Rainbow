@@ -9,5 +9,5 @@ public interface UnprocessedArticleDao
 {
     public List<UnprocessedArticle> GetUnprocessedArticles();
 
-    public void RemoveUnprocessedArticles(List<ProcessedArticle> processedArticles);
+    public void RemoveUnprocessedArticles(List<UnprocessedArticle> processedArticles);
 }

@@ -10,8 +10,9 @@ public class ProcessedArticle
     private String description;
     private Date publicationDate;
     private List<Integer> urlIds;
+    private List<String> urls;
 
-    public ProcessedArticle(int categoryId, List<String> headlines, String description, Date publicationDate, List<Integer> urlIds)
+    public ProcessedArticle(int categoryId, List<String> headlines, String description, Date publicationDate, List<Integer> urlIds, List<String> urls)
     {
         HeadlineGenerator generator = new HeadlineGenerator();
         this.aggregateHeadline = generator.GenerateAggregateHeadline(headlines);
@@ -20,6 +21,7 @@ public class ProcessedArticle
         this.description = description;
         this.publicationDate = publicationDate;
         this.urlIds = urlIds;
+        this.urls = urls;
     }
 
     public int getCategory()
@@ -42,5 +44,8 @@ public class ProcessedArticle
         return publicationDate;
     }
 
+    public List<Integer> getUrlIds() { return urlIds; }
+
+    public List<String> getUrls() { return urls; }
 
 }
