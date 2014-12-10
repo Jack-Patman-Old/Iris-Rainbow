@@ -6,7 +6,6 @@ import java.math.RoundingMode;
 import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Scanner;
 
 public class RelatedArticleFinder
 {
@@ -45,6 +44,7 @@ public class RelatedArticleFinder
                 List<String> headlines = new ArrayList<String>();
 
                 urlIds.add(originalArticle.getUrlId());
+                urls.add(originalArticle.getUrl());
                 headlines.add(originalArticle.getHeadline());
 
                 UnprocessedArticle firstMatch = matches.get(0);
@@ -70,10 +70,7 @@ public class RelatedArticleFinder
     {
         List<String> result = new ArrayList<String>();
 
-        final String workingDir = System.getProperty("user.dir");
-
-
-        BufferedReader reader = null;
+        BufferedReader reader;
 
         try
         {
@@ -104,15 +101,21 @@ public class RelatedArticleFinder
     {
         if (comparisonArticle.getFeedId() != originalArticle.getFeedId())
         {
-            if (!comparisonArticle.getDescription().equals(originalArticle.getDescription()) && !comparisonArticle.getHeadline().equals(originalArticle.getHeadline()))
+            if (!comparisonArticle.getUrl().contains(originalArticle.getUrl()))
             {
-                if (!matchingDescriptions.contains(comparisonArticle.getDescription()) && !matchingHeadlines.contains(comparisonArticle.getHeadline()))
+                if (comparisonArticle.getDescription() != null & originalArticle.getDescription() != null)
                 {
-                    double headlineDifference = CompareWordVolumes(originalArticle.getHeadline(), comparisonArticle.getHeadline());
-
-                    if (headlineDifference > 0.65)
+                    if (!comparisonArticle.getDescription().equals(originalArticle.getDescription()) && !comparisonArticle.getHeadline().equals(originalArticle.getHeadline()))
                     {
-                        return true;
+                        if (!matchingDescriptions.contains(comparisonArticle.getDescription()) && !matchingHeadlines.contains(comparisonArticle.getHeadline()))
+                        {
+                            double headlineDifference = CompareWordVolumes(originalArticle.getHeadline(), comparisonArticle.getHeadline());
+
+                            if (headlineDifference > 0.75)
+                            {
+                                return true;
+                            }
+                        }
                     }
                 }
             }
