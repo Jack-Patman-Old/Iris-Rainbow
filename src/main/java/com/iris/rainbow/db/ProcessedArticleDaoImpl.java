@@ -22,6 +22,9 @@ public class ProcessedArticleDaoImpl implements ProcessedArticleDao
         db = new DAOManager();
     }
 
+    /**
+     * @inheritDoc
+     */
     @Override
     public boolean WriteArticlesToDb(List<ProcessedArticle> processedArticles)
     {
@@ -46,6 +49,14 @@ public class ProcessedArticleDaoImpl implements ProcessedArticleDao
         return true;
     }
 
+    /**
+     * Writes the details of a processedArticle to the database (The category, Generated Headline, Description and
+     * publication date). Currently does not support writing non SQL formatted publication dates.
+     *
+     * @param  article A single ProcessedArticle to be entered into the database.
+     *
+     * @return Article index generated for the row entered into the table.
+     */
     private Integer WriteArticleDetailsToDb(ProcessedArticle article) throws SQLException
     {
 
@@ -68,6 +79,13 @@ public class ProcessedArticleDaoImpl implements ProcessedArticleDao
         return results.getInt(idIndex);
     }
 
+    /**
+     * Takes a list of Urls for related articles and writes them into their own respective adatabase.
+     *
+     * @param  urls A List of Urls for a single ProcessedArticle
+     *
+     * @return List of Url indice generated for the rows entered into the table.
+     */
     private List<Integer> WriteArticleUrlsToDb(List<String> urls) throws SQLException
     {
         List<Integer> urlIndexes = new ArrayList<Integer>();
@@ -91,6 +109,13 @@ public class ProcessedArticleDaoImpl implements ProcessedArticleDao
         return urlIndexes;
     }
 
+    /**
+     * Makes a number of entries into a joining table to facilitate the many to many relationship between
+     * ProcessedArticles and their respectively urls.
+     *
+     * @param  articleId A single articleId for the ProcessedArticle associated with the Urls.
+     * @param  urlIds A List of UrlIds for all urls associated with the ProcessedArticle.
+     */
     private void JoinArticleAndUrls(Integer articleId, List<Integer> urlIds) throws SQLException
     {
         for (Integer urlId: urlIds)

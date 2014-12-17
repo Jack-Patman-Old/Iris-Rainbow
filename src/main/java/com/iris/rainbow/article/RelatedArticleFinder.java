@@ -12,6 +12,15 @@ public class RelatedArticleFinder
     private List<String> ignoredTerms;
 
 
+    /**
+     * Takes a list of Unprocessed Articles, then for each article searches for articles that are related
+     * (In this context - Articles that cover the same story), will then generate a ProcessedArticle containing
+     * a list of all Urls from related articles.
+     *
+     * @param  unprocessedArticles A list of unprocessedArticles taken fresh from RssFeeds
+     *
+     * @return  A list of processedArticles containing urls linking them to related articles.
+     */
     public List<ProcessedArticle> processArticles(List<UnprocessedArticle> unprocessedArticles)
     {
         ignoredTerms = loadIgnoredTerms();
@@ -66,6 +75,12 @@ public class RelatedArticleFinder
         return processedArticles;
     }
 
+    /**
+     * Loads a text file containing a list  of terms to ignore when searching for headline matches from the
+     * classpath, will then return this as a List of words that can be used during the matching process.
+     *
+     * @return A List of words that can be ignored during the matching process.
+     */
     private List<String> loadIgnoredTerms()
     {
         List<String> result = new ArrayList<String>();
@@ -96,7 +111,20 @@ public class RelatedArticleFinder
 
     }
 
-
+    /**
+     * Takes the original article, the comparison article and a list of existing matches and then searches for new matches
+     * by comparing the word volume between the original articles headline and the comparison article headline, and
+     * then checking to make sure the article/headline have not already been matched to another article. Currently
+     * the articles require 75% similarity, however 100% matches will be ignored under the assumption that it is a
+     * repeat article.
+     *
+     * @param  originalArticle The original article that you wish to compare against.
+     * @param  comparisonArticle The article that you wish to compare your original article against.
+     * @param  matchingDescriptions A list of Article descriptions that you have already managed to match up to other articles.
+     * @param  matchingHeadlines A list of Article Headlines that you have already managed to match up to other articles.
+     *
+     * @return A boolean value specifying whether the articles are related or not.
+     */
     private boolean articlesAreRelated(UnprocessedArticle originalArticle, UnprocessedArticle comparisonArticle, List<String> matchingDescriptions, List<String> matchingHeadlines)
     {
         if (comparisonArticle.getFeedId() != originalArticle.getFeedId())

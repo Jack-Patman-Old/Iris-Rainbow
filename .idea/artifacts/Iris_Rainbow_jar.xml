@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Iris-Rainbow:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Iris_Rainbow_jar</output-path>
+    <root id="archive" name="Iris-Rainbow.jar">
+      <element id="module-output" name="com.iris.rainbow" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-core/2.1/log4j-core-2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/logging/log4j/log4j-api/2.1/log4j-api-2.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.8.1/jsoup-1.8.1.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-jdk1.5/0.7.3/jgrapht-jdk1.5-0.7.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/postgresql/postgresql/9.1-901.jdbc4/postgresql-9.1-901.jdbc4.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

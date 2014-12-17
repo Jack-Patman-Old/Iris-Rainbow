@@ -25,9 +25,7 @@ public class UnprocessedArticleDaoImpl implements UnprocessedArticleDao
     }
 
     /**
-     * Returns a List containing all Unprocessed Articles in the UnprocessedArticles table
-     *
-     * @return List of UnprocessedArticle()
+     * @inheritDoc
      */
     @Override
     public List<UnprocessedArticle> GetUnprocessedArticles()
@@ -36,7 +34,7 @@ public class UnprocessedArticleDaoImpl implements UnprocessedArticleDao
 
         try
         {
-            final String statement = "SELECT * FROM \"UnprocessedArticles\" ua RIGHT OUTER JOIN \"UnprocessedArticleUrls\" uau ON ua.\"UrlId\" = uau.\"Id\" WHERE uau.\"DateProcessed\" > LOCALTIMESTAMP - INTERVAL '1 days' ";
+            final String statement = "SELECT * FROM \"UnprocessedArticles\" ua RIGHT OUTER JOIN \"UnprocessedArticleUrls\" uau ON ua.\"UrlId\" = uau.\"Id\" WHERE uau.\"DateProcessed\" > LOCALTIMESTAMP - INTERVAL '1 Hour' ";
 
             preparedStatement = db.getConnection().prepareStatement(statement);
             results = preparedStatement.executeQuery();
@@ -67,6 +65,7 @@ public class UnprocessedArticleDaoImpl implements UnprocessedArticleDao
      * from the UnprocessedArticle table.
      *
      * @param results resultSet returned from UnprocessedArticle table
+     *
      * @return Single UnprocessedArticle() object
      */
     private UnprocessedArticle ParseUnprocessedArticle(ResultSet results)
@@ -84,14 +83,21 @@ public class UnprocessedArticleDaoImpl implements UnprocessedArticleDao
             int articleId = results.getInt(idIndex);
             int feedId = results.getInt(feedIdIndex);
             String headline = results.getString(headlineIndex);
-            String description = Jsoup.parse(results.getString(descriptionIndex)).text();
+
+            String description = null;
+
+            if (results.getString(descriptionIndex) != null )
+            {
+                description = Jsoup.parse(results.getString(descriptionIndex)).text();
+            }
+
             Date publicationDate = results.getDate(publicationDateIndex);
             int urlId = results.getInt(urlIdIndex);
             String url = results.getString(urlIndex);
 
             return (new UnprocessedArticle(articleId, feedId, urlId, headline, description, url, publicationDate));
         }
-        catch (SQLException e)
+        catch (Exception e)
         {
             logger.error("exception encountered attempting to read from UnprocessedArticle result set, exception was " + e);
             return null;
@@ -99,6 +105,9 @@ public class UnprocessedArticleDaoImpl implements UnprocessedArticleDao
     }
 
 
+    /**
+     * @inheritDoc
+     */
     @Override
     public void RemoveUnprocessedArticles(List<UnprocessedArticle> unprocessedArticles)
     {
@@ -106,7 +115,7 @@ public class UnprocessedArticleDaoImpl implements UnprocessedArticleDao
         {
             try
             {
-                RemoveUnprocessedArticleDetails(article);
+                RemoveUnprocessedArticleDetails(article.getArticleId());
                 RemoveUnprocessedArticleUrls(article.getUrlId());
             }
             catch (SQLException e)
@@ -116,6 +125,12 @@ public class UnprocessedArticleDaoImpl implements UnprocessedArticleDao
         }
     }
 
+    /**
+     * Removes a single entry from the UnprocessedArticleUrls table - removes an entry that has already
+     * been successfully processed.
+     *
+     * @param urlId Index of the Url to be removed.
+     */
     private void RemoveUnprocessedArticleUrls(int urlId) throws SQLException
     {
         final String statement = "DELETE FROM \"UnprocessedArticleUrls\" WHERE \"Id\" = ?";
@@ -123,16 +138,23 @@ public class UnprocessedArticleDaoImpl implements UnprocessedArticleDao
         preparedStatement = db.getConnection().prepareStatement(statement);
         preparedStatement.setInt(1, urlId);
 
-        preparedStatement.execute();
+        preparedStatement.executeUpdate();
     }
 
-    private void RemoveUnprocessedArticleDetails(UnprocessedArticle article) throws SQLException
+
+    /**
+     * Removes a single entry from the UnprocessedArticle table - removes an entry that has already
+     * been successfully processed.
+     *
+     * @param articleId the id of the article in question to be removed.
+     */
+    private void RemoveUnprocessedArticleDetails(int articleId) throws SQLException
     {
         final String statement = "DELETE FROM \"UnprocessedArticles\" WHERE \"Id\" = ?";
 
         preparedStatement = db.getConnection().prepareStatement(statement);
-        preparedStatement.setInt(1, article.getArticleId());
+        preparedStatement.setInt(1, articleId);
 
-        preparedStatement.execute();
+        preparedStatement.executeUpdate();
     }
 }

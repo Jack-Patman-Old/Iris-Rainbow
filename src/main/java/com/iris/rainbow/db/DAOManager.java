@@ -14,8 +14,8 @@ public class DAOManager
     private Connection con = null;
 
     /**
-     * Attempts to openConnection connection with postgreSQL database
-     **/
+     * Attempts to open a connection with a PostgreSql database based on details held in the config.properties file.
+     */
     public void openConnection()
     {
         logger.debug("Attempting to openConnection connection with database");
@@ -36,8 +36,8 @@ public class DAOManager
     }
 
     /**
-     * Attempts to closeConnection connection with PostgreSQL database.
-     **/
+     * Attempts to close the current connection with the PostgreSql database.
+     */
     public void closeConnection()
     {
         logger.debug("Attempting to closeConnection connection with database");
@@ -56,9 +56,9 @@ public class DAOManager
     }
 
     /**
-     * Returns an open connection, if connection is invalid, attempts to open connection.
+     * Returns an open connection to the database or if connection is invalid, attempts to open connection befor returning it.
      *
-     * @return connection object to allow database access.
+     * @return connection object to facilitate database access.
      **/
     public Connection getConnection()
     {

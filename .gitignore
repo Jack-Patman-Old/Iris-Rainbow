@@ -44,3 +44,8 @@ Temporary Items
 
 src/src/main/resources/config.properties
 src/target/classes/config.properties
+*.MF
+*.class
+*.class
+*.class
+out/artifacts/Iris_Rainbow_jar/Iris-Rainbow.jar
