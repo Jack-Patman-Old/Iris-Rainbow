@@ -3,8 +3,7 @@ package com.iris.rainbow.article;
 import java.sql.Date;
 import java.util.List;
 
-public class ProcessedArticle
-{
+public class ProcessedArticle extends HeadlineGenerator {
     private int category;
     private String aggregateHeadline;
     private String description;

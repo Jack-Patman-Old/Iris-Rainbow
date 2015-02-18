@@ -1,6 +1,9 @@
 package com.iris.rainbow.article;
 
-import java.io.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
 import java.math.BigDecimal;
 import java.math.RoundingMode;
 import java.util.ArrayList;
@@ -10,6 +13,7 @@ import java.util.List;
 public class RelatedArticleFinder
 {
     private List<String> ignoredTerms;
+    private List<String> filteredText;
 
 
     /**
@@ -28,15 +32,26 @@ public class RelatedArticleFinder
         List<ProcessedArticle> processedArticles = new ArrayList<ProcessedArticle>();
         List<UnprocessedArticle> matches = new ArrayList<UnprocessedArticle>();
 
-        for (UnprocessedArticle originalArticle : unprocessedArticles)
+        List<String> matchingHeadlines = new ArrayList<String>();
+        List<String> matchingDescriptions = new ArrayList<String>();
+
+         for (UnprocessedArticle originalArticle : unprocessedArticles)
         {
-            List<String> matchingHeadlines = new ArrayList<String>();
-            List<String> matchingDescriptions = new ArrayList<String>();
+
+            if (matchingHeadlines.contains(originalArticle.getHeadline()))
+            {
+                continue;
+            }
 
             // Ensure that original article is no longer part of the search candidates
 
             for (UnprocessedArticle comparisonArticle : unprocessedArticles)
             {
+                if (matchingHeadlines.contains(comparisonArticle.getHeadline()))
+                {
+                    continue;
+                }
+
                 if (articlesAreRelated(originalArticle, comparisonArticle, matchingDescriptions, matchingHeadlines))
                 {
                     matchingHeadlines.add(comparisonArticle.getHeadline());
@@ -111,6 +126,7 @@ public class RelatedArticleFinder
 
     }
 
+
     /**
      * Takes the original article, the comparison article and a list of existing matches and then searches for new matches
      * by comparing the word volume between the original articles headline and the comparison article headline, and
@@ -125,7 +141,8 @@ public class RelatedArticleFinder
      *
      * @return A boolean value specifying whether the articles are related or not.
      */
-    private boolean articlesAreRelated(UnprocessedArticle originalArticle, UnprocessedArticle comparisonArticle, List<String> matchingDescriptions, List<String> matchingHeadlines)
+    private boolean articlesAreRelated(UnprocessedArticle originalArticle, UnprocessedArticle comparisonArticle,
+                                              List<String> matchingDescriptions, List<String> matchingHeadlines)
     {
         if (comparisonArticle.getFeedId() != originalArticle.getFeedId())
         {
@@ -133,13 +150,16 @@ public class RelatedArticleFinder
             {
                 if (comparisonArticle.getDescription() != null & originalArticle.getDescription() != null)
                 {
-                    if (!comparisonArticle.getDescription().equals(originalArticle.getDescription()) && !comparisonArticle.getHeadline().equals(originalArticle.getHeadline()))
+                    if (!comparisonArticle.getDescription().equals(originalArticle.getDescription())
+                            &&!comparisonArticle.getHeadline().equals(originalArticle.getHeadline()))
                     {
-                        if (!matchingDescriptions.contains(comparisonArticle.getDescription()) && !matchingHeadlines.contains(comparisonArticle.getHeadline()))
+                        if (!matchingDescriptions.contains(comparisonArticle.getDescription())
+                                && !matchingHeadlines.contains(comparisonArticle.getHeadline()))
                         {
-                            double headlineDifference = CompareWordVolumes(originalArticle.getHeadline(), comparisonArticle.getHeadline());
+                            double headlineDifference = CompareWordVolumes(originalArticle.getHeadline(),
+                                    comparisonArticle.getHeadline());
 
-                            if (headlineDifference > 0.75)
+                            if (headlineDifference > 0.30)
                             {
                                 return true;
                             }
@@ -162,26 +182,32 @@ public class RelatedArticleFinder
      */
     private double CompareWordVolumes(String originalText, String comparedText)
     {
-        originalText = originalText.toLowerCase();
-        comparedText = comparedText.toLowerCase();
+        String originalHeadline = originalText.toLowerCase();
+        String comparisonHeadline = comparedText.toLowerCase();
 
-        String[] originalWords = originalText.split("\\s+");
-        String[] comparitiveWords = comparedText.split("\\s+");
+        for (String text: ignoredTerms)
+        {
+            String filteredTerm = text.toLowerCase();
+            comparisonHeadline = comparisonHeadline.replaceAll(filteredTerm, " ");
+            comparisonHeadline = comparisonHeadline.replace(filteredTerm, " ");
+            originalHeadline = originalHeadline.replaceAll(filteredTerm, " ");
+            originalHeadline = originalHeadline.replace(filteredTerm, " ");
+        }
+
+        String[] originalWords = originalHeadline.split("\\s+");
+        String[] comparativeWords = comparisonHeadline.split("\\s+");
 
         int wordMatches = 0;
 
         for (String originalWord : originalWords)
         {
-            if (!ignoredTerms.contains(originalWord))
-            {
-                for (String comparativeWord : comparitiveWords)
+                for (String comparativeWord : comparativeWords)
                 {
                     if (originalWord.toLowerCase().equals(comparativeWord.toLowerCase()))
                     {
                         wordMatches++;
                     }
                 }
-            }
         }
 
 

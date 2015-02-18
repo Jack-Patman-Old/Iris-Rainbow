@@ -95,6 +95,7 @@ public class UnprocessedArticleDaoImpl implements UnprocessedArticleDao
             int urlId = results.getInt(urlIdIndex);
             String url = results.getString(urlIndex);
 
+
             return (new UnprocessedArticle(articleId, feedId, urlId, headline, description, url, publicationDate));
         }
         catch (Exception e)
