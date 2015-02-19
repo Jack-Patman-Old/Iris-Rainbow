@@ -2244,3 +2244,67 @@
 2015-02-18 11:42:07,178 DEBUG ? [main] Successfully opened connection with Database
 2015-02-18 11:42:09,039 DEBUG ? [main] Attempting to closeConnection connection with database
 2015-02-18 11:42:09,039 DEBUG ? [main] Successfully closed connection with database
+2015-02-18 12:18:48,295 DEBUG ? [main] Attempting to openConnection connection with database
+2015-02-18 12:18:48,297 DEBUG ? [main] Attempting to load properties file
+2015-02-18 12:18:48,297 DEBUG ? [main] Successfully located and loaded config.properties
+2015-02-18 12:18:48,400 DEBUG ? [main] Successfully opened connection with Database
+2015-02-18 12:18:50,205 DEBUG ? [main] Attempting to closeConnection connection with database
+2015-02-18 12:18:50,205 DEBUG ? [main] Successfully closed connection with database
+2015-02-18 12:23:09,574 DEBUG ? [main] Attempting to openConnection connection with database
+2015-02-18 12:23:09,575 DEBUG ? [main] Attempting to load properties file
+2015-02-18 12:23:09,576 DEBUG ? [main] Successfully located and loaded config.properties
+2015-02-18 12:23:09,682 DEBUG ? [main] Successfully opened connection with Database
+2015-02-18 12:23:12,902 DEBUG ? [main] Attempting to openConnection connection with database
+2015-02-18 12:23:12,904 DEBUG ? [main] Attempting to load properties file
+2015-02-18 12:23:12,905 DEBUG ? [main] Successfully located and loaded config.properties
+2015-02-18 12:23:13,026 DEBUG ? [main] Successfully opened connection with Database
+2015-02-18 12:23:14,501 DEBUG ? [main] Attempting to closeConnection connection with database
+2015-02-18 12:23:14,501 DEBUG ? [main] Successfully closed connection with database
+2015-02-18 12:32:07,520 DEBUG ? [main] Attempting to openConnection connection with database
+2015-02-18 12:32:07,523 DEBUG ? [main] Attempting to load properties file
+2015-02-18 12:32:07,523 DEBUG ? [main] Successfully located and loaded config.properties
+2015-02-18 12:32:07,627 DEBUG ? [main] Successfully opened connection with Database
+2015-02-18 12:32:09,323 DEBUG ? [main] Attempting to closeConnection connection with database
+2015-02-18 12:32:09,323 DEBUG ? [main] Successfully closed connection with database
+2015-02-18 12:41:23,501 DEBUG ? [main] Attempting to openConnection connection with database
+2015-02-18 12:41:23,503 DEBUG ? [main] Attempting to load properties file
+2015-02-18 12:41:23,504 DEBUG ? [main] Successfully located and loaded config.properties
+2015-02-18 12:41:23,612 DEBUG ? [main] Successfully opened connection with Database
+2015-02-18 12:41:25,410 DEBUG ? [main] Attempting to closeConnection connection with database
+2015-02-18 12:41:25,411 DEBUG ? [main] Successfully closed connection with database
+2015-02-18 13:31:58,809 DEBUG ? [main] Attempting to openConnection connection with database
+2015-02-18 13:31:58,811 DEBUG ? [main] Attempting to load properties file
+2015-02-18 13:31:58,811 DEBUG ? [main] Successfully located and loaded config.properties
+2015-02-18 13:31:58,919 DEBUG ? [main] Successfully opened connection with Database
+2015-02-18 13:32:00,996 DEBUG ? [main] Attempting to closeConnection connection with database
+2015-02-18 13:32:00,996 DEBUG ? [main] Successfully closed connection with database
+2015-02-18 13:32:29,523 DEBUG ? [main] Attempting to openConnection connection with database
+2015-02-18 13:32:29,525 DEBUG ? [main] Attempting to load properties file
+2015-02-18 13:32:29,525 DEBUG ? [main] Successfully located and loaded config.properties
+2015-02-18 13:32:29,632 DEBUG ? [main] Successfully opened connection with Database
+2015-02-18 13:32:31,407 DEBUG ? [main] Attempting to closeConnection connection with database
+2015-02-18 13:32:31,408 DEBUG ? [main] Successfully closed connection with database
+2015-02-18 13:56:13,163 DEBUG ? [main] Attempting to openConnection connection with database
+2015-02-18 13:56:13,164 DEBUG ? [main] Attempting to load properties file
+2015-02-18 13:56:13,165 DEBUG ? [main] Successfully located and loaded config.properties
+2015-02-18 13:56:13,271 DEBUG ? [main] Successfully opened connection with Database
+2015-02-18 13:56:15,335 DEBUG ? [main] Attempting to closeConnection connection with database
+2015-02-18 13:56:15,335 DEBUG ? [main] Successfully closed connection with database
+2015-02-18 13:59:02,468 DEBUG ? [main] Attempting to openConnection connection with database
+2015-02-18 13:59:02,471 DEBUG ? [main] Attempting to load properties file
+2015-02-18 13:59:02,471 DEBUG ? [main] Successfully located and loaded config.properties
+2015-02-18 13:59:02,580 DEBUG ? [main] Successfully opened connection with Database
+2015-02-18 13:59:05,246 DEBUG ? [main] Attempting to closeConnection connection with database
+2015-02-18 13:59:05,246 DEBUG ? [main] Successfully closed connection with database
+2015-02-18 13:59:19,941 DEBUG ? [main] Attempting to openConnection connection with database
+2015-02-18 13:59:19,942 DEBUG ? [main] Attempting to load properties file
+2015-02-18 13:59:19,943 DEBUG ? [main] Successfully located and loaded config.properties
+2015-02-18 13:59:20,050 DEBUG ? [main] Successfully opened connection with Database
+2015-02-18 13:59:22,069 DEBUG ? [main] Attempting to closeConnection connection with database
+2015-02-18 13:59:22,069 DEBUG ? [main] Successfully closed connection with database
+2015-02-18 14:07:59,803 DEBUG ? [main] Attempting to openConnection connection with database
+2015-02-18 14:07:59,805 DEBUG ? [main] Attempting to load properties file
+2015-02-18 14:07:59,806 DEBUG ? [main] Successfully located and loaded config.properties
+2015-02-18 14:07:59,918 DEBUG ? [main] Successfully opened connection with Database
+2015-02-18 14:08:01,953 DEBUG ? [main] Attempting to closeConnection connection with database
+2015-02-18 14:08:01,953 DEBUG ? [main] Successfully closed connection with database

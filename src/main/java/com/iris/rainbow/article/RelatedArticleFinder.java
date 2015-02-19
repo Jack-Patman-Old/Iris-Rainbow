@@ -13,7 +13,6 @@ import java.util.List;
 public class RelatedArticleFinder
 {
     private List<String> ignoredTerms;
-    private List<String> filteredText;
 
 
     /**
@@ -159,7 +158,7 @@ public class RelatedArticleFinder
                             double headlineDifference = CompareWordVolumes(originalArticle.getHeadline(),
                                     comparisonArticle.getHeadline());
 
-                            if (headlineDifference > 0.30)
+                            if (headlineDifference > 0.25)
                             {
                                 return true;
                             }

@@ -3,18 +3,20 @@ package com.iris.rainbow.article;
 import com.iris.rainbow.db.UnprocessedArticleDaoImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
-import org.jgrapht.DirectedGraph;
 import org.jgrapht.alg.DijkstraShortestPath;
-import org.jgrapht.graph.DefaultDirectedGraph;
-import org.jgrapht.graph.DefaultEdge;
+import org.jgrapht.graph.DefaultWeightedEdge;
+import org.jgrapht.graph.SimpleDirectedWeightedGraph;
 
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class HeadlineGenerator
 {
 
     private Logger logger = LogManager.getLogger(UnprocessedArticleDaoImpl.class.getName());
+    private Map<String, Integer> headlineTermsOccurrence = new HashMap<String, Integer>();
 
     /**
      * Uses DirectedGraph functionality from JGraphT to construct a word-graph
@@ -28,33 +30,55 @@ public class HeadlineGenerator
      */
     public String GenerateAggregateHeadline(List<String> headlines)
     {
+        CalculateNodeWeights(headlines);
         List<String> startNodes = gatherStartNodes(headlines);
         List <String> endNodes = gatherEndNodes(headlines);
 
-        DirectedGraph<String, DefaultEdge> wordGraph = constructWordgraph(headlines);
+        SimpleDirectedWeightedGraph<String, DefaultWeightedEdge> wordGraph = constructWordgraph(headlines);
 
-        List headlinePath = findShortestPath(wordGraph, startNodes, endNodes);
+        String headline = findShortestPath(wordGraph, startNodes, endNodes);
 
-        StringBuilder headline = new StringBuilder();
-        for (int i=0; i < headlinePath.size(); i++)
+        return headline;
+    }
+
+    /**
+     * Calculates the weight of each term in a headline based on its occurrence across headlines.
+     *
+     * @param  headlines  A List of headlines to calculate word-weights from.
+     *
+     */
+    private void CalculateNodeWeights(List<String> headlines)
+    {
+        List<String> words = new ArrayList<String>();
+
+        for (String headline: headlines)
         {
-            if (i == headlinePath.size()-1)
+            String[] headlineWords = headline.split("\\s+");
+            if (headlineWords.length > 0)
             {
-                String edge = headlinePath.get(i).toString();
-                edge = edge.replace("(", "");
-                edge = edge.replace(":", "");
-                edge = edge.replace(")", "");
-                headline.append(edge);
-
-                continue;
+                for (String word: headlineWords) {
+                    words.add(word);
+                }
             }
-
-            String edge = headlinePath.get(i).toString();
-            String formattedHeadline = edge.substring(0, edge.lastIndexOf(":"));
-            headline.append(formattedHeadline.replace("(",""));
         }
 
-        return headline.toString();
+        for (String headlineTerm: words)
+        {
+            if (!headlineTermsOccurrence.containsKey(headlineTerm))
+            {
+                int occurrence = 0;
+
+                for (String word: words)
+                {
+                    if (word.equals(headlineTerm))
+                    {
+                        occurrence++;
+                    }
+                }
+
+                headlineTermsOccurrence.put(headlineTerm, occurrence);
+            }
+        }
     }
 
     /**
@@ -115,7 +139,7 @@ public class HeadlineGenerator
      *
      * @return  A list of words which contains the shortest path through the word graph.
      */
-    private List findShortestPath(DirectedGraph<String, DefaultEdge> wordGraph, List<String> startNodes, List<String> endNodes)
+    private String findShortestPath(SimpleDirectedWeightedGraph<String, DefaultWeightedEdge> wordGraph, List<String> startNodes, List<String> endNodes)
     {
         List shortestPath = new ArrayList();
 
@@ -139,8 +163,27 @@ public class HeadlineGenerator
             }
         }
 
+        StringBuilder headline = new StringBuilder();
+        for (int i=0; i < shortestPath.size(); i++)
+        {
+            if (i == shortestPath.size()-1)
+            {
+                String edge = shortestPath.get(i).toString();
+                edge = edge.replace("(", "");
+                edge = edge.replace(":", "");
+                edge = edge.replace(")", "");
+                headline.append(edge);
 
-        return shortestPath;
+                continue;
+            }
+
+            String edge = shortestPath.get(i).toString();
+            String formattedHeadline = edge.substring(0, edge.lastIndexOf(":"));
+            headline.append(formattedHeadline.replace("(",""));
+        }
+
+
+        return headline.toString();
     }
 
     /**
@@ -149,10 +192,10 @@ public class HeadlineGenerator
      * @param  headlines  The news headlines that we need to combine to generate an aggregate headline.
      * @return  A directed word graph constructed using JGraphT containing all words in the headlines entered.
      */
-    private DirectedGraph<String,DefaultEdge> constructWordgraph(List<String> headlines)
+    private SimpleDirectedWeightedGraph<String,DefaultWeightedEdge> constructWordgraph(List<String> headlines)
     {
 
-        DirectedGraph<String, DefaultEdge> wordGraph = new DefaultDirectedGraph<String, DefaultEdge>(DefaultEdge.class);
+        SimpleDirectedWeightedGraph<String, DefaultWeightedEdge> wordGraph = new SimpleDirectedWeightedGraph<String, DefaultWeightedEdge>(DefaultWeightedEdge.class);
         for (String headline: headlines)
         {
             String[] headlineWords = headline.split("\\s+");
@@ -163,10 +206,10 @@ public class HeadlineGenerator
                 if (!wordGraph.containsVertex(headlineWords[i]))
                 {
                     wordGraph.addVertex(headlineWords[i]);
-                    if (i != 0 )
-                    {
-                        wordGraph.addEdge(headlineWords[i-1], headlineWords[i]);
-                    }
+                }
+                if (i != 0 )
+                {
+                    wordGraph.addEdge(headlineWords[i - 1], headlineWords[i]);
                 }
             }
         }
