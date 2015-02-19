@@ -7,38 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7794f603-e975-4349-8611-fcc0bf84715d" name="Default" comment="Improved the process used to identify related articles.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/reader/ArticleReader.class" afterPath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/reader/ArticleReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/article/HeadlineGenerator.class" afterPath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/article/HeadlineGenerator.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/article/RelatedArticleFinder.class" afterPath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/article/RelatedArticleFinder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/HeadlineGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/HeadlineGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/logs.log" afterPath="$PROJECT_DIR$/logs/logs.log" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="test.iws" />
@@ -75,11 +45,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ProcessedArticle.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java">
+      <file leaf-file-name="RelatedArticleFinder.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.38846573" vertical-offset="0" max-vertical-offset="919">
-              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+            <state vertical-scroll-proportion="0.57495254" vertical-offset="2587" max-vertical-offset="3876">
+              <caret line="178" column="8" selection-start-line="178" selection-start-column="8" selection-end-line="178" selection-end-column="8" />
               <folding />
             </state>
           </provider>
@@ -128,8 +98,8 @@
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/properties/Property.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/HeadlineGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java" />
       </list>
     </option>
   </component>
@@ -144,10 +114,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1912" />
+    <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1296" />
+    <option name="height" value="699" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -174,7 +144,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -328,6 +297,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -566,7 +536,6 @@
       <node-options />
       <gulpfile />
       <tasks />
-      <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
@@ -658,6 +627,9 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -764,6 +736,8 @@
       <workItem from="1424258824630" duration="10502000" />
       <workItem from="1424311074770" duration="535000" />
       <workItem from="1424335345591" duration="43000" />
+      <workItem from="1424346119517" duration="15000" />
+      <workItem from="1424346182450" duration="438000" />
     </task>
     <task id="LOCAL-00001" summary="Changed project JDK to 1.6">
       <created>1417979747725</created>
@@ -781,7 +755,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118293000" />
+    <option name="totallyTimeSpent" value="118746000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -804,7 +778,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="699" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
@@ -817,23 +791,23 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273495" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1828125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18122977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39598733" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IntelliHeap" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39598733" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273495" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273495" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928804" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -891,6 +865,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="566" max-vertical-offset="2822">
@@ -1036,13 +1026,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.34980237" vertical-offset="1846" max-vertical-offset="11322">
           <caret line="135" column="16" selection-start-line="135" selection-start-column="16" selection-end-line="135" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_75/src.zip!/java/lang/String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33272058" vertical-offset="38545" max-vertical-offset="51051">
-          <caret line="2353" column="20" selection-start-line="2353" selection-start-column="20" selection-end-line="2353" selection-end-column="20" />
         </state>
       </provider>
     </entry>
@@ -1214,7 +1197,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
           <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1255,27 +1237,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_75/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="40" max-vertical-offset="9061">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_75/src.zip!/java/util/AbstractCollection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="550" max-vertical-offset="7548">
-          <caret line="66" column="0" selection-start-line="66" selection-start-column="0" selection-end-line="66" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_75/src.zip!/java/util/AbstractList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="720" max-vertical-offset="12206">
-          <caret line="76" column="0" selection-start-line="76" selection-start-column="0" selection-end-line="76" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="918">
@@ -1284,35 +1245,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.7.0_75/src.zip!/java/util/ArrayList.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2012" max-vertical-offset="18921">
-          <caret line="152" column="0" selection-start-line="152" selection-start-column="0" selection-end-line="152" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="1.875" vertical-offset="1581" max-vertical-offset="3740">
-          <caret line="161" column="57" selection-start-line="161" selection-start-column="57" selection-end-line="161" selection-end-column="57" />
+        <state vertical-scroll-proportion="0.42694497" vertical-offset="132" max-vertical-offset="731">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/HeadlineGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46354732" vertical-offset="2753" max-vertical-offset="3672">
-          <caret line="199" column="34" selection-start-line="199" selection-start-column="34" selection-end-line="199" selection-end-column="34" />
-          <folding>
-            <element signature="e#6801#6830#0" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="3009" max-vertical-offset="3689">
+          <caret line="209" column="0" selection-start-line="209" selection-start-column="0" selection-end-line="209" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.38846573" vertical-offset="0" max-vertical-offset="919">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+        <state vertical-scroll-proportion="0.57495254" vertical-offset="2587" max-vertical-offset="3876">
+          <caret line="178" column="8" selection-start-line="178" selection-start-column="8" selection-end-line="178" selection-end-column="8" />
           <folding />
         </state>
       </provider>

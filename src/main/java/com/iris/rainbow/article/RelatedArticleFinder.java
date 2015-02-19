@@ -20,9 +20,8 @@ public class RelatedArticleFinder
      * (In this context - Articles that cover the same story), will then generate a ProcessedArticle containing
      * a list of all Urls from related articles.
      *
-     * @param  unprocessedArticles A list of unprocessedArticles taken fresh from RssFeeds
-     *
-     * @return  A list of processedArticles containing urls linking them to related articles.
+     * @param unprocessedArticles A list of unprocessedArticles taken fresh from RssFeeds
+     * @return A list of processedArticles containing urls linking them to related articles.
      */
     public List<ProcessedArticle> processArticles(List<UnprocessedArticle> unprocessedArticles)
     {
@@ -34,7 +33,7 @@ public class RelatedArticleFinder
         List<String> matchingHeadlines = new ArrayList<String>();
         List<String> matchingDescriptions = new ArrayList<String>();
 
-         for (UnprocessedArticle originalArticle : unprocessedArticles)
+        for (UnprocessedArticle originalArticle : unprocessedArticles)
         {
 
             if (matchingHeadlines.contains(originalArticle.getHeadline()))
@@ -133,41 +132,51 @@ public class RelatedArticleFinder
      * the articles require 75% similarity, however 100% matches will be ignored under the assumption that it is a
      * repeat article.
      *
-     * @param  originalArticle The original article that you wish to compare against.
-     * @param  comparisonArticle The article that you wish to compare your original article against.
-     * @param  matchingDescriptions A list of Article descriptions that you have already managed to match up to other articles.
-     * @param  matchingHeadlines A list of Article Headlines that you have already managed to match up to other articles.
-     *
+     * @param originalArticle      The original article that you wish to compare against.
+     * @param comparisonArticle    The article that you wish to compare your original article against.
+     * @param matchingDescriptions A list of Article descriptions that you have already managed to match up to other articles.
+     * @param matchingHeadlines    A list of Article Headlines that you have already managed to match up to other articles.
      * @return A boolean value specifying whether the articles are related or not.
      */
-    private boolean articlesAreRelated(UnprocessedArticle originalArticle, UnprocessedArticle comparisonArticle,
-                                              List<String> matchingDescriptions, List<String> matchingHeadlines)
+    private boolean articlesAreRelated(UnprocessedArticle originalArticle, UnprocessedArticle comparisonArticle, List<String> matchingDescriptions, List<String> matchingHeadlines)
     {
-        if (comparisonArticle.getFeedId() != originalArticle.getFeedId())
+        // App will only support one news article per outlet for a select topic.
+        if (comparisonArticle.getFeedId() == originalArticle.getFeedId())
         {
-            if (!comparisonArticle.getUrl().contains(originalArticle.getUrl()))
-            {
-                if (comparisonArticle.getDescription() != null & originalArticle.getDescription() != null)
-                {
-                    if (!comparisonArticle.getDescription().equals(originalArticle.getDescription())
-                            &&!comparisonArticle.getHeadline().equals(originalArticle.getHeadline()))
-                    {
-                        if (!matchingDescriptions.contains(comparisonArticle.getDescription())
-                                && !matchingHeadlines.contains(comparisonArticle.getHeadline()))
-                        {
-                            double headlineDifference = CompareWordVolumes(originalArticle.getHeadline(),
-                                    comparisonArticle.getHeadline());
-
-                            if (headlineDifference > 0.25)
-                            {
-                                return true;
-                            }
-                        }
-                    }
-                }
-            }
+            return false;
         }
 
+        // Avoid headlines that link back to the same url.
+        if (comparisonArticle.getUrl().contains(originalArticle.getUrl()))
+        {
+            return false;
+        }
+
+        // Avoid articles that contain no description for comparison.
+        if (comparisonArticle.getDescription() == null || originalArticle.getDescription() == null)
+        {
+            return false;
+        }
+
+        // Avoid articles with EXACTLY the same text.
+        if (comparisonArticle.getDescription().equals(originalArticle.getDescription()) || comparisonArticle.getHeadline().equals(originalArticle.getHeadline()))
+        {
+            return false;
+        }
+
+        // Avoid articles that have already been procesed
+        if (matchingDescriptions.contains(comparisonArticle.getDescription()) || matchingHeadlines.contains(comparisonArticle.getHeadline()))
+        {
+            return false;
+        }
+
+        double headlineSimilarity = CompareWordVolumes(originalArticle.getHeadline(), comparisonArticle.getHeadline());
+
+        if (headlineSimilarity > 0.25)
+        {
+            return true;
+        }
+        
         return false;
     }
 
@@ -184,7 +193,7 @@ public class RelatedArticleFinder
         String originalHeadline = originalText.toLowerCase();
         String comparisonHeadline = comparedText.toLowerCase();
 
-        for (String text: ignoredTerms)
+        for (String text : ignoredTerms)
         {
             String filteredTerm = text.toLowerCase();
             comparisonHeadline = comparisonHeadline.replaceAll(filteredTerm, " ");
@@ -200,13 +209,13 @@ public class RelatedArticleFinder
 
         for (String originalWord : originalWords)
         {
-                for (String comparativeWord : comparativeWords)
+            for (String comparativeWord : comparativeWords)
+            {
+                if (originalWord.toLowerCase().equals(comparativeWord.toLowerCase()))
                 {
-                    if (originalWord.toLowerCase().equals(comparativeWord.toLowerCase()))
-                    {
-                        wordMatches++;
-                    }
+                    wordMatches++;
                 }
+            }
         }
 
 
