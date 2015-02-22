@@ -30,13 +30,13 @@ public class RelatedArticleFinder
         List<ProcessedArticle> processedArticles = new ArrayList<ProcessedArticle>();
         List<UnprocessedArticle> matches = new ArrayList<UnprocessedArticle>();
 
-        List<String> matchingHeadlines = new ArrayList<String>();
+        List<String> matchingUrls = new ArrayList<String>();
         List<String> matchingDescriptions = new ArrayList<String>();
 
         for (UnprocessedArticle originalArticle : unprocessedArticles)
         {
 
-            if (matchingHeadlines.contains(originalArticle.getHeadline()))
+            if (matchingUrls.contains(originalArticle.getUrl()))
             {
                 continue;
             }
@@ -45,14 +45,14 @@ public class RelatedArticleFinder
 
             for (UnprocessedArticle comparisonArticle : unprocessedArticles)
             {
-                if (matchingHeadlines.contains(comparisonArticle.getHeadline()))
+                if (matchingUrls.contains(comparisonArticle.getUrl()))
                 {
                     continue;
                 }
 
-                if (articlesAreRelated(originalArticle, comparisonArticle, matchingDescriptions, matchingHeadlines))
+                if (articlesAreRelated(originalArticle, comparisonArticle, matchingDescriptions, matchingUrls))
                 {
-                    matchingHeadlines.add(comparisonArticle.getHeadline());
+                    matchingUrls.add(comparisonArticle.getUrl());
                     matchingDescriptions.add(comparisonArticle.getDescription());
                     matches.add(comparisonArticle);
                 }

@@ -4,7 +4,9 @@ import com.iris.rainbow.db.UnprocessedArticleDaoImpl;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.jgrapht.alg.DijkstraShortestPath;
+import org.jgrapht.graph.DefaultEdge;
 import org.jgrapht.graph.DefaultWeightedEdge;
+import org.jgrapht.graph.SimpleDirectedGraph;
 import org.jgrapht.graph.SimpleDirectedWeightedGraph;
 
 import java.util.ArrayList;
@@ -34,7 +36,7 @@ public class HeadlineGenerator
         List<String> startNodes = gatherStartNodes(headlines);
         List <String> endNodes = gatherEndNodes(headlines);
 
-        SimpleDirectedWeightedGraph<String, DefaultWeightedEdge> wordGraph = constructWordgraph(headlines);
+        SimpleDirectedGraph<String, DefaultEdge> wordGraph = constructWordgraph(headlines);
 
         String headline = findShortestPath(wordGraph, startNodes, endNodes);
 
@@ -139,7 +141,7 @@ public class HeadlineGenerator
      *
      * @return  A list of words which contains the shortest path through the word graph.
      */
-    private String findShortestPath(SimpleDirectedWeightedGraph<String, DefaultWeightedEdge> wordGraph, List<String> startNodes, List<String> endNodes)
+    private String findShortestPath(SimpleDirectedGraph<String, DefaultEdge> wordGraph, List<String> startNodes, List<String> endNodes)
     {
         List shortestPath = new ArrayList();
 
@@ -192,10 +194,10 @@ public class HeadlineGenerator
      * @param  headlines  The news headlines that we need to combine to generate an aggregate headline.
      * @return  A directed word graph constructed using JGraphT containing all words in the headlines entered.
      */
-    private SimpleDirectedWeightedGraph<String,DefaultWeightedEdge> constructWordgraph(List<String> headlines)
+    private SimpleDirectedGraph<String,DefaultEdge> constructWordgraph(List<String> headlines)
     {
 
-        SimpleDirectedWeightedGraph<String, DefaultWeightedEdge> wordGraph = new SimpleDirectedWeightedGraph<String, DefaultWeightedEdge>(DefaultWeightedEdge.class);
+        SimpleDirectedGraph<String, DefaultEdge> wordGraph = new SimpleDirectedGraph<String, DefaultEdge>(DefaultEdge.class);
         for (String headline: headlines)
         {
             String[] headlineWords = headline.split("\\s+");
@@ -207,9 +209,9 @@ public class HeadlineGenerator
                 {
                     wordGraph.addVertex(headlineWords[i]);
                 }
-                if (i != 0 )
+                if (i != 0 && !headlineWords[i-1].equals(headlineWords[i]))
                 {
-                    wordGraph.addEdge(headlineWords[i - 1], headlineWords[i]);
+                    wordGraph.addEdge(headlineWords[i-1], headlineWords[i]);
                 }
             }
         }
