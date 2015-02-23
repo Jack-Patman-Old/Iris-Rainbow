@@ -2308,3 +2308,35 @@
 2015-02-18 14:07:59,918 DEBUG ? [main] Successfully opened connection with Database
 2015-02-18 14:08:01,953 DEBUG ? [main] Attempting to closeConnection connection with database
 2015-02-18 14:08:01,953 DEBUG ? [main] Successfully closed connection with database
+2015-02-23 16:27:32,381 DEBUG ? [main] Attempting to openConnection connection with database
+2015-02-23 16:27:32,383 DEBUG ? [main] Attempting to load properties file
+2015-02-23 16:27:32,384 DEBUG ? [main] Successfully located and loaded config.properties
+2015-02-23 16:27:32,630 DEBUG ? [main] Successfully opened connection with Database
+2015-02-23 16:27:32,672 ERROR ? [main] Fatal exception encountered attempting to load all unprocessed articles, exception was org.postgresql.util.PSQLException: ERROR: relation "RssFeeds" does not exist
+  Position: 128
+2015-02-23 16:27:32,672 DEBUG ? [main] Attempting to closeConnection connection with database
+2015-02-23 16:27:32,672 DEBUG ? [main] Successfully closed connection with database
+2015-02-23 16:27:47,789 DEBUG ? [main] Attempting to openConnection connection with database
+2015-02-23 16:27:47,791 DEBUG ? [main] Attempting to load properties file
+2015-02-23 16:27:47,791 DEBUG ? [main] Successfully located and loaded config.properties
+2015-02-23 16:27:47,892 DEBUG ? [main] Successfully opened connection with Database
+2015-02-23 16:27:47,927 ERROR ? [main] Fatal exception encountered attempting to load all unprocessed articles, exception was org.postgresql.util.PSQLException: ERROR: relation "RssFeeds" does not exist
+  Position: 128
+2015-02-23 16:27:47,927 DEBUG ? [main] Attempting to closeConnection connection with database
+2015-02-23 16:27:47,927 DEBUG ? [main] Successfully closed connection with database
+2015-02-23 16:28:13,742 DEBUG ? [main] Attempting to openConnection connection with database
+2015-02-23 16:28:13,745 DEBUG ? [main] Attempting to load properties file
+2015-02-23 16:28:13,746 DEBUG ? [main] Successfully located and loaded config.properties
+2015-02-23 16:28:13,903 DEBUG ? [main] Successfully opened connection with Database
+2015-02-23 16:28:38,667 DEBUG ? [main] Attempting to openConnection connection with database
+2015-02-23 16:28:38,669 DEBUG ? [main] Attempting to load properties file
+2015-02-23 16:28:38,669 DEBUG ? [main] Successfully located and loaded config.properties
+2015-02-23 16:28:38,775 DEBUG ? [main] Successfully opened connection with Database
+2015-02-23 16:28:55,537 DEBUG ? [main] Attempting to openConnection connection with database
+2015-02-23 16:28:55,540 DEBUG ? [main] Attempting to load properties file
+2015-02-23 16:28:55,540 DEBUG ? [main] Successfully located and loaded config.properties
+2015-02-23 16:28:55,665 DEBUG ? [main] Successfully opened connection with Database
+2015-02-23 16:31:30,533 DEBUG ? [main] Attempting to openConnection connection with database
+2015-02-23 16:31:30,535 DEBUG ? [main] Attempting to load properties file
+2015-02-23 16:31:30,536 DEBUG ? [main] Successfully located and loaded config.properties
+2015-02-23 16:31:30,647 DEBUG ? [main] Successfully opened connection with Database

@@ -80,7 +80,7 @@ public class RelatedArticleFinder
                     matchesIterator.remove();
                 }
 
-                processedArticles.add(new ProcessedArticle(0, headlines, firstMatch.getDescription(), firstMatch.getPublicationDate(), urlIds, urls));
+                processedArticles.add(new ProcessedArticle(firstMatch.getCategoryId(), headlines, firstMatch.getDescription(), firstMatch.getPublicationDate(), urlIds, urls));
             }
 
         }
@@ -172,7 +172,7 @@ public class RelatedArticleFinder
 
         double headlineSimilarity = CompareWordVolumes(originalArticle.getHeadline(), comparisonArticle.getHeadline());
 
-        if (headlineSimilarity > 0.25)
+        if (headlineSimilarity > 0.35)
         {
             return true;
         }

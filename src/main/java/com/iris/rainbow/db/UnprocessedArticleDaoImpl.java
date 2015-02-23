@@ -34,7 +34,11 @@ public class UnprocessedArticleDaoImpl implements UnprocessedArticleDao
 
         try
         {
-            final String statement = "SELECT * FROM \"UnprocessedArticles\" ua RIGHT OUTER JOIN \"UnprocessedArticleUrls\" uau ON ua.\"UrlId\" = uau.\"Id\" WHERE uau.\"DateProcessed\" > LOCALTIMESTAMP - INTERVAL '1 Hour' ";
+            final String statement =
+                    "SELECT * FROM \"UnprocessedArticles\" ua " +
+                    "RIGHT OUTER JOIN \"UnprocessedArticleUrls\" uau ON ua.\"UrlId\" = uau.\"Id\" " +
+                    "RIGHT OUTER JOIN \"RSSFeeds\" rs on ua.\"FeedId\" = rs.\"Id\" " +
+                    "WHERE uau.\"DateProcessed\" > LOCALTIMESTAMP - INTERVAL '1 Hour' ";
 
             preparedStatement = db.getConnection().prepareStatement(statement);
             results = preparedStatement.executeQuery();
@@ -75,6 +79,7 @@ public class UnprocessedArticleDaoImpl implements UnprocessedArticleDao
             int idIndex = results.findColumn("id");
             int feedIdIndex = results.findColumn("FeedId");
             int headlineIndex = results.findColumn("Headline");
+            int categoryIdIndex = results.findColumn("Category");
             int descriptionIndex = results.findColumn("Description");
             int publicationDateIndex = results.findColumn("PublicationDate");
             int urlIdIndex = results.findColumn("UrlId");
@@ -93,10 +98,11 @@ public class UnprocessedArticleDaoImpl implements UnprocessedArticleDao
 
             Date publicationDate = results.getDate(publicationDateIndex);
             int urlId = results.getInt(urlIdIndex);
+            int categoryId = results.getInt(categoryIdIndex);
             String url = results.getString(urlIndex);
 
 
-            return (new UnprocessedArticle(articleId, feedId, urlId, headline, description, url, publicationDate));
+            return (new UnprocessedArticle(articleId, feedId, urlId, categoryId, headline, description, url, publicationDate));
         }
         catch (Exception e)
         {

@@ -7,18 +7,21 @@ public class UnprocessedArticle
     private int articleId;
     private int feedId;
     private int urlId;
+    private int categoryId;
 
     private String headline;
     private String description;
     private String url;
 
+
     private Date publicationDate;
 
-    public UnprocessedArticle(int articleId, int feedId, int urlId, String headline, String description, String url, Date publicationDate)
+    public UnprocessedArticle(int articleId, int feedId, int urlId, int categoryId, String headline, String description, String url, Date publicationDate)
     {
         this.articleId = articleId;
         this.feedId = feedId;
         this.urlId = urlId;
+        this.categoryId = categoryId;
         this.url = url;
         this.headline = headline;
         this.description = description;
@@ -34,6 +37,8 @@ public class UnprocessedArticle
     {
         return feedId;
     }
+
+    public int getCategoryId() { return categoryId; }
 
     public String getUrl()
     {

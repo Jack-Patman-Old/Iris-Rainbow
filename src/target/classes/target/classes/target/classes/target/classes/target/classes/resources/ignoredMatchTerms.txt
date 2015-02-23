@@ -16,7 +16,8 @@
  once 
  provided 
  rather than 
- since 
+ since
+ of  
  supposing 
  than 
  that 
@@ -39,6 +40,7 @@
  why 
  and 
  but 
+ Video 
  or 
  for 
  yet 
@@ -46,7 +48,8 @@
  either 
  whether 
  such 
- both 
+ both
+ be 
  to 
  the 
  a 

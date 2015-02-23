@@ -7,9 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7794f603-e975-4349-8611-fcc0bf84715d" name="Default" comment="Improved the process used to identify related articles.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/HeadlineGenerator.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/HeadlineGenerator.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/resources/ignoredMatchTerms.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/logs.log" afterPath="$PROJECT_DIR$/logs/logs.log" />
     </list>
     <ignored path="test.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -48,8 +50,81 @@
       <file leaf-file-name="RelatedArticleFinder.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.57495254" vertical-offset="2587" max-vertical-offset="3876">
-              <caret line="178" column="8" selection-start-line="178" selection-start-column="8" selection-end-line="178" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.875" vertical-offset="2346" max-vertical-offset="3876">
+              <caret line="174" column="37" selection-start-line="174" selection-start-column="37" selection-end-line="174" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ProcessedArticle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="731">
+              <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnprocessedArticleDaoImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="622" max-vertical-offset="2720">
+              <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+              <folding>
+                <element signature="e#895#915#0" expanded="true" />
+                <marker date="1424709084540" expanded="true" signature="1000:1041" placeholder="SELECT * FRO..UnprocessedArticles..." />
+                <marker date="1424709084540" expanded="true" signature="1000:1184" placeholder="SELECT * FRO..UnprocessedArticles..." />
+                <marker date="1424709084540" expanded="true" signature="1000:1219" placeholder="SELECT * FRO..UnprocessedArticles..." />
+                <marker date="1424709084540" expanded="true" signature="1000:1223" placeholder="SELECT * FRO..UnprocessedArticles..." />
+                <marker date="1424709084540" expanded="true" signature="1000:1319" placeholder="SELECT * FRO..UnprocessedArticles..." />
+                <marker date="1424709084540" expanded="true" signature="1000:1320" placeholder="SELECT * FRO..UnprocessedArticles..." />
+                <marker date="1424709084540" expanded="true" signature="4619:4674" placeholder="DELETE FROM ..." />
+                <marker date="1424709084540" expanded="true" signature="5206:5258" placeholder="DELETE FROM ..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnprocessedArticle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="935">
+              <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+              <folding>
+                <element signature="e#1258#1259#0" expanded="true" />
+                <element signature="e#1296#1297#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AbstractJdbc2ResultSet.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/postgresql/postgresql/9.1-901.jdbc4/postgresql-9.1-901.jdbc4.jar!/org/postgresql/jdbc2/AbstractJdbc2ResultSet.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.6" vertical-offset="19424" max-vertical-offset="34425">
+              <caret line="1227" column="11" selection-start-line="1227" selection-start-column="11" selection-end-line="1227" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ArticleReader.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="561">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnprocessedArticleDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+              <caret line="23" column="100" selection-start-line="23" selection-start-column="100" selection-end-line="23" selection-end-column="100" />
               <folding />
             </state>
           </provider>
@@ -90,15 +165,15 @@
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessableArticles.java" />
         <option value="$PROJECT_DIR$/src/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/DAOManager.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/ProcessedArticleDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/ProcessedArticleDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/properties/Property.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/HeadlineGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java" />
       </list>
     </option>
@@ -114,10 +189,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
+    <option name="x" value="1912" />
     <option name="y" value="-8" />
-    <option name="width" value="1296" />
-    <option name="height" value="699" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -144,6 +219,8 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -296,8 +373,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -536,6 +611,7 @@
       <node-options />
       <gulpfile />
       <tasks />
+      <arguments />
       <pass-parent-envs>true</pass-parent-envs>
       <envs />
       <method />
@@ -627,9 +703,6 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
-      <method />
-    </configuration>
-    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
       <method />
     </configuration>
     <configuration default="true" type="Applet" factoryName="Applet">
@@ -738,6 +811,7 @@
       <workItem from="1424335345591" duration="43000" />
       <workItem from="1424346119517" duration="15000" />
       <workItem from="1424346182450" duration="438000" />
+      <workItem from="1424708181468" duration="1133000" />
     </task>
     <task id="LOCAL-00001" summary="Changed project JDK to 1.6">
       <created>1417979747725</created>
@@ -755,7 +829,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118746000" />
+    <option name="totallyTimeSpent" value="119879000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -778,12 +852,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="699" extended-state="6" />
+    <frame x="1912" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273495" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -794,19 +869,18 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273495" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18122977" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18072917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39598733" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39598733" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IntelliHeap" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273495" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928804" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
@@ -845,18 +919,24 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java</url>
-          <line>102</line>
+          <line>108</line>
           <properties />
           <option name="timeStamp" value="219" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java</url>
-          <line>38</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java</url>
+          <line>60</line>
           <properties />
-          <option name="timeStamp" value="289" />
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java</url>
+          <line>56</line>
+          <properties />
+          <option name="timeStamp" value="314" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="308" />
+      <option name="time" value="315" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -865,6 +945,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3757">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
@@ -899,7 +987,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="351" max-vertical-offset="1683">
           <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-          <folding />
+          <folding>
+            <element signature="e#895#915#0" expanded="true" />
+            <marker date="1424709084540" expanded="true" signature="1000:1041" placeholder="SELECT * FRO..UnprocessedArticles..." />
+            <marker date="1424709084540" expanded="true" signature="1000:1184" placeholder="SELECT * FRO..UnprocessedArticles..." />
+            <marker date="1424709084540" expanded="true" signature="1000:1219" placeholder="SELECT * FRO..UnprocessedArticles..." />
+            <marker date="1424709084540" expanded="true" signature="1000:1223" placeholder="SELECT * FRO..UnprocessedArticles..." />
+            <marker date="1424709084540" expanded="true" signature="1000:1319" placeholder="SELECT * FRO..UnprocessedArticles..." />
+            <marker date="1424709084540" expanded="true" signature="1000:1320" placeholder="SELECT * FRO..UnprocessedArticles..." />
+            <marker date="1424709084540" expanded="true" signature="4619:4674" placeholder="DELETE FROM ..." />
+            <marker date="1424709084540" expanded="true" signature="5206:5258" placeholder="DELETE FROM ..." />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1050,20 +1148,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/target/classes/target/classes/com.iris.rainbow.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/target/classes/target/classes/target/classes/com.iris.rainbow.iml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/logs/logs.log">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="37876">
@@ -1082,41 +1166,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/target/classes/target/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/target/classes/target/classes/target/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/MANIFEST.MF">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -1208,48 +1257,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
-          <caret line="23" column="100" selection-start-line="23" selection-start-column="100" selection-end-line="23" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="214" max-vertical-offset="2618">
-          <caret line="36" column="0" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="901">
-          <caret line="59" column="0" selection-start-line="59" selection-start-column="0" selection-end-line="59" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-jdk1.5/0.7.3/jgrapht-jdk1.5-0.7.3.jar!/org/jgrapht/graph/DefaultEdge.class">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.26621923" vertical-offset="0" max-vertical-offset="894">
           <caret line="19" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="918">
-          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="53" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.42694497" vertical-offset="132" max-vertical-offset="731">
-          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1261,10 +1272,71 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="510">
+          <caret line="23" column="100" selection-start-line="23" selection-start-column="100" selection-end-line="23" selection-end-column="100" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="6" max-vertical-offset="561">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/postgresql/postgresql/9.1-901.jdbc4/postgresql-9.1-901.jdbc4.jar!/org/postgresql/jdbc2/AbstractJdbc2ResultSet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.6" vertical-offset="19424" max-vertical-offset="34425">
+          <caret line="1227" column="11" selection-start-line="1227" selection-start-column="11" selection-end-line="1227" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="238" max-vertical-offset="935">
+          <caret line="40" column="30" selection-start-line="40" selection-start-column="30" selection-end-line="40" selection-end-column="30" />
+          <folding>
+            <element signature="e#1258#1259#0" expanded="true" />
+            <element signature="e#1296#1297#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDaoImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="622" max-vertical-offset="2720">
+          <caret line="56" column="28" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="28" />
+          <folding>
+            <element signature="e#895#915#0" expanded="true" />
+            <marker date="1424709084540" expanded="true" signature="1000:1041" placeholder="SELECT * FRO..UnprocessedArticles..." />
+            <marker date="1424709084540" expanded="true" signature="1000:1184" placeholder="SELECT * FRO..UnprocessedArticles..." />
+            <marker date="1424709084540" expanded="true" signature="1000:1219" placeholder="SELECT * FRO..UnprocessedArticles..." />
+            <marker date="1424709084540" expanded="true" signature="1000:1223" placeholder="SELECT * FRO..UnprocessedArticles..." />
+            <marker date="1424709084540" expanded="true" signature="1000:1319" placeholder="SELECT * FRO..UnprocessedArticles..." />
+            <marker date="1424709084540" expanded="true" signature="1000:1320" placeholder="SELECT * FRO..UnprocessedArticles..." />
+            <marker date="1424709084540" expanded="true" signature="4619:4674" placeholder="DELETE FROM ..." />
+            <marker date="1424709084540" expanded="true" signature="5206:5258" placeholder="DELETE FROM ..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="30" max-vertical-offset="731">
+          <caret line="22" column="25" selection-start-line="22" selection-start-column="25" selection-end-line="22" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.57495254" vertical-offset="2587" max-vertical-offset="3876">
-          <caret line="178" column="8" selection-start-line="178" selection-start-column="8" selection-end-line="178" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.875" vertical-offset="2346" max-vertical-offset="3876">
+          <caret line="174" column="37" selection-start-line="174" selection-start-column="37" selection-end-line="174" selection-end-column="37" />
           <folding />
         </state>
       </provider>
