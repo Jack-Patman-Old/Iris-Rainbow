@@ -66,6 +66,7 @@ public class RelatedArticleFinder
                 List<String> urls = new ArrayList<String>();
                 List<String> headlines = new ArrayList<String>();
 
+                feedIds.add(originalArticle.getFeedId());
                 urlIds.add(originalArticle.getUrlId());
                 urls.add(originalArticle.getUrl());
                 headlines.add(originalArticle.getHeadline());
