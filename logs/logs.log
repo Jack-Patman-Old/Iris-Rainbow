@@ -2340,3 +2340,9 @@
 2015-02-23 16:31:30,535 DEBUG ? [main] Attempting to load properties file
 2015-02-23 16:31:30,536 DEBUG ? [main] Successfully located and loaded config.properties
 2015-02-23 16:31:30,647 DEBUG ? [main] Successfully opened connection with Database
+2015-03-11 16:20:44,798 DEBUG ? [main] Attempting to openConnection connection with database
+2015-03-11 16:20:44,819 DEBUG ? [main] Attempting to load properties file
+2015-03-11 16:20:44,819 DEBUG ? [main] Successfully located and loaded config.properties
+2015-03-11 16:20:45,129 DEBUG ? [main] Successfully opened connection with Database
+2015-03-11 16:20:53,034 DEBUG ? [main] Attempting to closeConnection connection with database
+2015-03-11 16:20:53,035 DEBUG ? [main] Successfully closed connection with database

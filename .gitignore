@@ -49,3 +49,4 @@ src/target/classes/config.properties
 *.class
 *.class
 out/artifacts/Iris_Rainbow_jar/Iris-Rainbow.jar
+*.class

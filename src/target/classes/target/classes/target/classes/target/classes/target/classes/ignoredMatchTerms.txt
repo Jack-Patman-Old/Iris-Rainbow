@@ -1,6 +1,7 @@
 : 
 "
 '
+ how 
  after 
  although 
  as 

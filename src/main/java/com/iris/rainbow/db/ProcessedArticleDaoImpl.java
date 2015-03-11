@@ -33,7 +33,7 @@ public class ProcessedArticleDaoImpl implements ProcessedArticleDao
             try
             {
                 Integer articleId = WriteArticleDetailsToDb(article);
-                List<Integer> urlIds = WriteArticleUrlsToDb(article.getUrls());
+                List<Integer> urlIds = WriteArticleUrlsToDb(article.getUrls(), article.getFeedIds());
                 JoinArticleAndUrls(articleId, urlIds);
             }
             catch (Exception e)
@@ -86,18 +86,19 @@ public class ProcessedArticleDaoImpl implements ProcessedArticleDao
      *
      * @return List of Url indice generated for the rows entered into the table.
      */
-    private List<Integer> WriteArticleUrlsToDb(List<String> urls) throws SQLException
+    private List<Integer> WriteArticleUrlsToDb(List<String> urls, List<Integer> feedIds) throws SQLException
     {
         List<Integer> urlIndexes = new ArrayList<Integer>();
 
-        for (String url: urls)
+        for (int i = 0; i < urls.size(); i++)
         {
-            final String statement = "INSERT INTO \"ProcessedArticleUrls\" (\"Url\") "
-                    + "VALUES (?)"
+            final String statement = "INSERT INTO \"ProcessedArticleUrls\" (\"Url\",\"FeedId\") "
+                    + "VALUES (?,?)"
                     + "RETURNING *";
 
             preparedStatement = db.getConnection().prepareStatement(statement);
-            preparedStatement.setString(1, url);
+            preparedStatement.setString(1, urls.get(i));
+            preparedStatement.setInt(2, feedIds.get(i));
 
             results = preparedStatement.executeQuery();
             results.next();
