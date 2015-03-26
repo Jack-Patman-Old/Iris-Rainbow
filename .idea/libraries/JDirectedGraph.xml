@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="JDirectedGraph">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/JDirectedGraph.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

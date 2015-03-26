@@ -1,9 +1,13 @@
 package com.iris.rainbow.article;
 
+import com.jdirectedgraph.impl.sentencecompression.CompressedSentenceGenerator;
+
+import java.io.IOException;
 import java.sql.Date;
 import java.util.List;
 
-public class ProcessedArticle extends HeadlineGenerator {
+public class ProcessedArticle
+{
     private int category;
     private List<Integer> feedIds;
     private String aggregateHeadline;
@@ -14,8 +18,19 @@ public class ProcessedArticle extends HeadlineGenerator {
 
     public ProcessedArticle(int categoryId, List<Integer>feedIds, List<String> headlines, String description, Date publicationDate, List<Integer> urlIds, List<String> urls)
     {
-        HeadlineGenerator generator = new HeadlineGenerator();
-        this.aggregateHeadline = generator.GenerateAggregateHeadline(headlines);
+        CompressedSentenceGenerator generator = null;
+        try
+        {
+            String[] headlinesArr = headlines.toArray(new String[headlines.size()]);
+            generator = new CompressedSentenceGenerator(headlinesArr);
+            this.aggregateHeadline = generator.createCompressedSentence();
+
+        }
+        catch (IOException e)
+        {
+            e.printStackTrace();
+        }
+
         this.feedIds = feedIds;
         this.category = categoryId;
         this.description = description;

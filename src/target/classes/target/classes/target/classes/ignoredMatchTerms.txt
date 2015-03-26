@@ -1,6 +1,12 @@
 : 
 "
 '
+ :
+ '
+video:
+\n\t
+\n
+ video
  how 
  after 
  although 
@@ -41,7 +47,6 @@
  why 
  and 
  but 
- Video 
  or 
  for 
  yet 
