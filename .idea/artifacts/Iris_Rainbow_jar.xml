@@ -8,6 +8,14 @@
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jsoup/jsoup/1.8.1/jsoup-1.8.1.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/jgrapht/jgrapht-jdk1.5/0.7.3/jgrapht-jdk1.5-0.7.3.jar" path-in-jar="/" />
       <element id="extracted-dir" path="$MAVEN_REPOSITORY$/postgresql/postgresql/9.1-901.jdbc4/postgresql-9.1-901.jdbc4.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/opennlp/opennlp-uima/1.5.3/opennlp-uima-1.5.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/opennlp/opennlp-tools/1.5.3/opennlp-tools-1.5.3.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/apache/opennlp/opennlp-maxent/3.0.3/opennlp-maxent-3.0.3.jar" path-in-jar="/" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/resources/en-pos-maxent.bin" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/resources/en-token.bin" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/resources/ignoredMatchTerms.txt" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/resources/config.properties" />
+      <element id="file-copy" path="$PROJECT_DIR$/src/resources/log4j2.xml" />
     </root>
   </artifact>
 </component>

@@ -16,6 +16,8 @@ public class UnprocessedArticle
 
     private Date publicationDate;
 
+    /* UnprocessedArticles represent ungrouped articles that have been
+       read straight from the database - awaiting processing.     */
     public UnprocessedArticle(int articleId, int feedId, int urlId, int categoryId, String headline, String description, String url, Date publicationDate)
     {
         this.articleId = articleId;

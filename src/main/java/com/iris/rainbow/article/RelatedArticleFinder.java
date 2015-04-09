@@ -175,7 +175,7 @@ public class RelatedArticleFinder
 
         double headlineSimilarity = CompareWordVolumes(originalArticle.getHeadline(), comparisonArticle.getHeadline());
 
-        if (headlineSimilarity > 0.35)
+        if (headlineSimilarity > 0.80)
         {
             return true;
         }

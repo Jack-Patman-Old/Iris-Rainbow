@@ -1,6 +1,6 @@
 package com.iris.rainbow.article;
 
-import com.jdirectedgraph.impl.sentencecompression.CompressedSentenceGenerator;
+import com.iris.rainbow.headline.generator.sentencecompression.CompressedSentenceGenerator;
 
 import java.io.IOException;
 import java.sql.Date;
@@ -16,14 +16,25 @@ public class ProcessedArticle
     private List<Integer> urlIds;
     private List<String> urls;
 
+    /* A Processed Article represents a grouped set of headlines ready to
+       be entered back into the Db  */
     public ProcessedArticle(int categoryId, List<Integer>feedIds, List<String> headlines, String description, Date publicationDate, List<Integer> urlIds, List<String> urls)
     {
         CompressedSentenceGenerator generator = null;
         try
         {
+            // Attempt to generate an aggregate headline from the headlines of all grouped articles.
             String[] headlinesArr = headlines.toArray(new String[headlines.size()]);
             generator = new CompressedSentenceGenerator(headlinesArr);
-            this.aggregateHeadline = generator.createCompressedSentence();
+            String aggregateSentence = generator.createCompressedSentence();
+            if (aggregateSentence == null || aggregateSentence.isEmpty())
+            {
+                this.aggregateHeadline = headlines.get(0);
+            }
+            else
+            {
+                this.aggregateHeadline = generator.createCompressedSentence();
+            }
 
         }
         catch (IOException e)

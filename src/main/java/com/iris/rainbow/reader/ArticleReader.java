@@ -7,16 +7,17 @@ import com.iris.rainbow.db.ProcessedArticleDao;
 import com.iris.rainbow.db.ProcessedArticleDaoImpl;
 import com.iris.rainbow.db.UnprocessedArticleDao;
 import com.iris.rainbow.db.UnprocessedArticleDaoImpl;
+import com.iris.rainbow.headline.generator.sentencecompression.CompressedSentenceGenerator;
 
+import java.io.IOException;
 import java.util.List;
 
 
 public class ArticleReader
 {
 
-    public static void main(String[] args)
+    public static void main(String[] args) throws IOException
     {
-
         UnprocessedArticleDao unprocessedArticleDb = new UnprocessedArticleDaoImpl();
         List<UnprocessedArticle> unprocessedArticles = unprocessedArticleDb.GetUnprocessedArticles();
 
