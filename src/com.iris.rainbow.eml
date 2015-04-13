@@ -2,9 +2,11 @@
 <component inheritJdk="true">
 	<output-test url="file://$MODULE_DIR$/target/test-classes"/>
 	<contentEntry url="file://$MODULE_DIR$">
-		<testFolder url="file://$MODULE_DIR$/src/test/java"/>
 		<excludeFolder url="file://$MODULE_DIR$/target"/>
 	</contentEntry>
+	<lib name="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\resources" scope="COMPILE">
+		<relative-module-cls project-related="file://$PROJECT_DIR$/src/resources"/>
+	</lib>
 	<levels>
 		<level name="Maven: org.apache.logging.log4j:log4j-core:2.1" value="project"/>
 		<level name="Maven: org.apache.logging.log4j:log4j-api:2.1" value="project"/>

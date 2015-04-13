@@ -18,30 +18,14 @@ public class ProcessedArticle
 
     /* A Processed Article represents a grouped set of headlines ready to
        be entered back into the Db  */
-    public ProcessedArticle(int categoryId, List<Integer>feedIds, List<String> headlines, String description, Date publicationDate, List<Integer> urlIds, List<String> urls)
+    public ProcessedArticle()
     {
-        CompressedSentenceGenerator generator = null;
-        try
-        {
-            // Attempt to generate an aggregate headline from the headlines of all grouped articles.
-            String[] headlinesArr = headlines.toArray(new String[headlines.size()]);
-            generator = new CompressedSentenceGenerator(headlinesArr);
-            String aggregateSentence = generator.createCompressedSentence();
-            if (aggregateSentence == null || aggregateSentence.isEmpty())
-            {
-                this.aggregateHeadline = headlines.get(0);
-            }
-            else
-            {
-                this.aggregateHeadline = generator.createCompressedSentence();
-            }
 
-        }
-        catch (IOException e)
-        {
-            e.printStackTrace();
-        }
+    }
 
+    public ProcessedArticle(int categoryId, List<Integer> feedIds, String aggregateHeadline, String description, Date publicationDate, List<Integer> urlIds, List<String> urls)
+    {
+        this.aggregateHeadline = aggregateHeadline;
         this.feedIds = feedIds;
         this.category = categoryId;
         this.description = description;
@@ -50,12 +34,15 @@ public class ProcessedArticle
         this.urls = urls;
     }
 
+
+
     public int getCategory()
     {
         return category;
     }
 
-    public List<Integer> getFeedIds() {
+    public List<Integer> getFeedIds()
+    {
         return feedIds;
     }
 
@@ -74,8 +61,48 @@ public class ProcessedArticle
         return publicationDate;
     }
 
-    public List<Integer> getUrlIds() { return urlIds; }
+    public List<Integer> getUrlIds()
+    {
+        return urlIds;
+    }
 
-    public List<String> getUrls() { return urls; }
+    public List<String> getUrls()
+    {
+        return urls;
+    }
 
+    public void setUrls(List<String> urls)
+    {
+        this.urls = urls;
+    }
+
+    public void setCategory(int category)
+    {
+        this.category = category;
+    }
+
+    public void setFeedIds(List<Integer> feedIds)
+    {
+        this.feedIds = feedIds;
+    }
+
+    public void setAggregateHeadline(String aggregateHeadline)
+    {
+        this.aggregateHeadline = aggregateHeadline;
+    }
+
+    public void setDescription(String description)
+    {
+        this.description = description;
+    }
+
+    public void setPublicationDate(Date publicationDate)
+    {
+        this.publicationDate = publicationDate;
+    }
+
+    public void setUrlIds(List<Integer> urlIds)
+    {
+        this.urlIds = urlIds;
+    }
 }

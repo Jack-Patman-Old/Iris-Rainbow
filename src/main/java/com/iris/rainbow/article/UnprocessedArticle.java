@@ -57,6 +57,7 @@ public class UnprocessedArticle
         return headline;
     }
 
+    public void setHeadline(String headline) { this.headline = headline; }
     public String getDescription()
     {
         return description;

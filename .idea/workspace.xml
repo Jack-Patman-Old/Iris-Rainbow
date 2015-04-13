@@ -2,78 +2,72 @@
 <project version="4">
   <component name="ArtifactsWorkspaceSettings">
     <artifacts-to-build>
-      <artifact name="Iris-Rainbow" />
       <artifact name="Iris-Rainbow:jar" />
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7794f603-e975-4349-8611-fcc0bf84715d" name="Default" comment="Improved the process used to identify related articles.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/.classpath" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/db/DAOManagerTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/headline/generator/graph/DirectedGraphTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__net_sf_jwordnet_jwnl_1_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_opennlp_opennlp_maxent_3_0_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_opennlp_opennlp_tools_1_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_opennlp_opennlp_uima_1_5_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_all_1_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/headline/generator/graph/NodeTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/db/UnprocessedArticleDaoImplTest.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/com.iris.rainbow.eml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/jwnl_1_3_3.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/opennlp_tools_1_5_3.xml" />
-      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\lib\JDirectedGraph.jar" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\pom.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/reader/ArticleReader.class" afterPath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/reader/ArticleReader.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/article/ProcessedArticle.class" afterPath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/article/ProcessedArticle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/article/RelatedArticleFinder.class" afterPath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/article/RelatedArticleFinder.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/article/UnprocessedArticle.class" afterPath="$PROJECT_DIR$/src/target/classes/com/iris/rainbow/article/UnprocessedArticle.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/.classpath" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/grouper/RelatedArticleFinder.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/grouper/WordDirectory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/com.iris.rainbow.eml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/com.iris.rainbow.eml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/com.iris.rainbow.eml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.eml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.eml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.eml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.eml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.eml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.eml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.eml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.eml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.eml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/resources/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
+      <change type="DELETED" beforePath="C:\Users\Jack\Documents\GitHub\Iris-Rainbow\src\main\java\com\iris\rainbow\article\RelatedArticleFinder.java" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/.classpath" afterPath="$PROJECT_DIR$/src/.classpath" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Iris_Rainbow.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Iris_Rainbow.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/Iris_Rainbow_jar.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/Iris_Rainbow_jar.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java" afterPath="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com.iris.rainbow.iml" afterPath="$PROJECT_DIR$/src/com.iris.rainbow.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/com.iris.rainbow.iml" afterPath="$PROJECT_DIR$/src/target/classes/com.iris.rainbow.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/com.iris.rainbow.iml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/com.iris.rainbow.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.iml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.iml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.iml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.iml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.iml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.iml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.iml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.iml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/com.iris.rainbow.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/ignoredMatchTerms.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/resources/ignoredMatchTerms.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/com.iris.rainbow.eml" afterPath="$PROJECT_DIR$/src/com.iris.rainbow.eml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/resources/ignoredMatchTerms.txt" afterPath="$PROJECT_DIR$/src/resources/ignoredMatchTerms.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logs/logs.log" afterPath="$PROJECT_DIR$/logs/logs.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/pom.xml" afterPath="$PROJECT_DIR$/src/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/pom.xml" afterPath="$PROJECT_DIR$/src/target/classes/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/pom.xml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" afterPath="$PROJECT_DIR$/src/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/target/classes/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="test.iws" />
@@ -110,21 +104,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="ArticleReader.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ArticleReader.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-              <caret line="20" column="85" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
-              <folding />
+            <state vertical-scroll-proportion="-0.048275862" vertical-offset="368" max-vertical-offset="1785">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2014#2032#0" expanded="true" />
+                <element signature="e#2173#2182#0" expanded="true" />
+                <element signature="e#2234#2243#0" expanded="true" />
+                <element signature="e#2297#2305#0" expanded="true" />
+                <element signature="e#2354#2362#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="RelatedArticleFinder.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
+      <file leaf-file-name="MANIFEST.MF" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.54280823" vertical-offset="2556" max-vertical-offset="3927">
-              <caret line="177" column="37" selection-start-line="177" selection-start-column="37" selection-end-line="177" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="153">
+              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -133,21 +134,69 @@
       <file leaf-file-name="CompressedSentenceGenerator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/headline/generator/sentencecompression/CompressedSentenceGenerator.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="584" max-vertical-offset="2380">
-              <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="572" max-vertical-offset="2380">
+              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DirectedGraph.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/headline/generator/graph/DirectedGraph.java">
+      <file leaf-file-name="ProcessedArticle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3729" max-vertical-offset="4522">
-              <caret line="233" column="0" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="1615">
+              <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
               <folding>
-                <element signature="e#5745#5751#0" expanded="true" />
+                <element signature="e#1497#1498#0" expanded="true" />
+                <element signature="e#1526#1527#0" expanded="true" />
+                <element signature="e#1567#1568#0" expanded="true" />
+                <element signature="e#1594#1595#0" expanded="true" />
+                <element signature="e#1676#1677#0" expanded="true" />
+                <element signature="e#1725#1726#0" expanded="true" />
+                <element signature="e#1765#1766#0" expanded="true" />
+                <element signature="e#1822#1823#0" expanded="true" />
+                <element signature="e#1860#1861#0" expanded="true" />
+                <element signature="e#1930#1931#0" expanded="true" />
+                <element signature="e#1988#1989#0" expanded="true" />
+                <element signature="e#2046#2047#0" expanded="true" />
+                <element signature="e#2092#2093#0" expanded="true" />
+                <element signature="e#2156#2157#0" expanded="true" />
+                <element signature="e#2210#2211#0" expanded="true" />
+                <element signature="e#2265#2266#0" expanded="true" />
+                <element signature="e#2301#2302#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WordDirectory.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/grouper/WordDirectory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1133" max-vertical-offset="3485">
+              <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1691#1699#0" expanded="true" />
+                <element signature="e#2569#2603#0" expanded="true" />
+                <element signature="e#2745#2765#0" expanded="true" />
+                <element signature="e#3510#3530#0" expanded="true" />
+                <element signature="e#5396#5397#0" expanded="true" />
+                <element signature="e#5428#5429#0" expanded="true" />
+                <element signature="e#5471#5472#0" expanded="true" />
+                <element signature="e#5503#5504#0" expanded="true" />
+                <element signature="e#5548#5549#0" expanded="true" />
+                <element signature="e#5580#5581#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="UnprocessedArticle.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="338" max-vertical-offset="935">
+              <caret line="59" column="72" selection-start-line="59" selection-start-column="72" selection-end-line="59" selection-end-column="72" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -197,16 +246,20 @@
         <option value="$PROJECT_DIR$/src/com/iris/rainbow/test/headline/generator/graph/DirectedGraphTest.java" />
         <option value="$PROJECT_DIR$/src/test/headline/generator/graph/NodeTest.java" />
         <option value="$PROJECT_DIR$/src/test/headline/generator/graph/DirectedGraphTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/headline/generator/graph/Node.java" />
         <option value="$PROJECT_DIR$/src/test/db/DAOManagerTest.java" />
         <option value="$PROJECT_DIR$/src/test/db/UnprocessedArticleDaoImplTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java" />
         <option value="$PROJECT_DIR$/src/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/headline/generator/sentencecompression/CompressedSentenceGenerator.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/headline/generator/graph/DirectedGraph.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/AlternateRelatedArticleFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/WordDirectory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/grouper/AlternateRelatedArticleFinder.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/grouper/WordDirectory.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java" />
       </list>
     </option>
   </component>
@@ -222,9 +275,8 @@
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="1912" />
-    <option name="y" value="-8" />
     <option name="width" value="1936" />
-    <option name="height" value="1096" />
+    <option name="height" value="1092" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -251,7 +303,48 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Production">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Iris-Rainbow">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Iris-Rainbow">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Iris-Rainbow">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="Iris-Rainbow">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT USER_OBJECT="logs">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -488,50 +581,39 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scope">
-        <subPane subId="Production">
           <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Iris-Rainbow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Iris-Rainbow">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Iris-Rainbow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Iris-Rainbow">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Iris-Rainbow">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rainbow" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="Iris-Rainbow">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="article" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT USER_OBJECT="logs">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT USER_OBJECT="Root">
-              <option name="myItemId" value="" />
-              <option name="myItemType" value="" />
+            <PATH_ELEMENT>
+              <option name="myItemId" value="grouper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -541,7 +623,7 @@
     <property name="MemberChooser.sorted" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="MemberChooser.copyJavadoc" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/META-INF/MANIFEST.MF" />
     <property name="options.lastSelected" value="copyright" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="options.splitter.details.proportions" value="0.2" />
@@ -700,32 +782,6 @@
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
       <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ArticleReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="com.iris.rainbow.reader.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="MAIN_CLASS_NAME" value="com.iris.rainbow.reader.ArticleReader" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="com.iris.rainbow" />
-      <envs />
-      <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="" />
-        <option name="TRANSPORT" value="0" />
-        <option name="LOCAL" value="true" />
-      </RunnerSettings>
-      <ConfigurationWrapper RunnerId="Debug" />
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -971,20 +1027,47 @@
       <envs />
       <method />
     </configuration>
+    <configuration default="false" name="ArticleReader" type="Application" factoryName="Application" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.iris.rainbow.reader.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.iris.rainbow.reader.ArticleReader" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="com.iris.rainbow" />
+      <envs />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.NodeTest" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.UnprocessedArticleDaoImplTest.GetUnprocessedArticles_valid" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.DAOManagerTest.CloseConnection_valid" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DAOManagerTest.OpenConnection_valid" />
-      <item index="4" class="java.lang.String" itemvalue="Application.ArticleReader" />
+      <item index="0" class="java.lang.String" itemvalue="Application.ArticleReader" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.NodeTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.UnprocessedArticleDaoImplTest.GetUnprocessedArticles_valid" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.DAOManagerTest.CloseConnection_valid" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.DAOManagerTest.OpenConnection_valid" />
     </list>
     <recent_temporary>
-      <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.ArticleReader" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DAOManagerTest.OpenConnection_valid" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.DAOManagerTest.CloseConnection_valid" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.UnprocessedArticleDaoImplTest.GetUnprocessedArticles_valid" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.NodeTest" />
+      <list size="4">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.DAOManagerTest.OpenConnection_valid" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.DAOManagerTest.CloseConnection_valid" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.UnprocessedArticleDaoImplTest.GetUnprocessedArticles_valid" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.NodeTest" />
       </list>
     </recent_temporary>
   </component>
@@ -1069,6 +1152,8 @@
       <workItem from="1427821823221" duration="595000" />
       <workItem from="1428233122059" duration="987000" />
       <workItem from="1428575785245" duration="5578000" />
+      <workItem from="1428713972636" duration="124000" />
+      <workItem from="1428846547171" duration="25550000" />
     </task>
     <task id="LOCAL-00001" summary="Changed project JDK to 1.6">
       <created>1417979747725</created>
@@ -1086,7 +1171,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160886000" />
+    <option name="totallyTimeSpent" value="186560000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1109,13 +1194,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="1912" y="0" width="1936" height="1092" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273495" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32655138" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1123,17 +1208,17 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273495" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32655138" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18072917" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3799392" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38148525" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="IntelliHeap" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
@@ -1144,6 +1229,39 @@
       <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39809927" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="IntelliHeap" active="false" anchor="bottom" auto_hide="true" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38148525" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3273495" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32655138" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Coverage" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32928804" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329806" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="JProfiler" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="16" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32946146" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -1200,34 +1318,23 @@
           <option name="timeStamp" value="328" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java</url>
-          <line>31</line>
+          <condition expression="article.getHeadline().toLowerCase().contains(&quot;kipper Williams&quot;) &amp;&amp; filteredTerm.equals(&quot;kipper williams&quot;)" language="JAVA" custom="" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/grouper/WordDirectory.java</url>
+          <line>77</line>
           <properties />
-          <option name="timeStamp" value="331" />
+          <option name="timeStamp" value="420" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java</url>
-          <line>35</line>
+          <url>file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java</url>
+          <line>36</line>
           <properties />
-          <option name="timeStamp" value="332" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/headline/generator/sentencecompression/CompressedSentenceGenerator.java</url>
-          <line>72</line>
-          <properties />
-          <option name="timeStamp" value="353" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java</url>
-          <line>85</line>
-          <properties />
-          <option name="timeStamp" value="365" />
+          <option name="timeStamp" value="425" />
         </line-breakpoint>
       </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="366" />
+      <option name="time" value="426" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1236,24 +1343,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="289" max-vertical-offset="561">
-          <caret line="25" column="41" selection-start-line="25" selection-start-column="41" selection-end-line="25" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/db/UnprocessedArticleDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="510">
           <caret line="23" column="100" selection-start-line="23" selection-start-column="100" selection-end-line="23" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3876">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1299,13 +1392,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3757">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
@@ -1317,13 +1403,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="566" max-vertical-offset="2822">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1348,24 +1427,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2720">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="748" max-vertical-offset="1462">
           <caret line="44" column="48" selection-start-line="44" selection-start-column="48" selection-end-line="44" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2720">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1470,13 +1535,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/target/MANIFEST.MF">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="607">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="27421">
@@ -1545,7 +1603,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.073993474" vertical-offset="0" max-vertical-offset="919">
           <caret line="6" column="17" selection-start-line="6" selection-start-column="17" selection-end-line="6" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1553,7 +1610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.18498367" vertical-offset="51" max-vertical-offset="2720">
           <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1564,19 +1620,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35146898" vertical-offset="0" max-vertical-offset="1275">
-          <caret line="19" column="61" selection-start-line="19" selection-start-column="61" selection-end-line="19" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/headline/generator/graph/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="84" max-vertical-offset="2074">
           <caret line="55" column="0" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1584,7 +1631,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="714">
           <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1592,9 +1638,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
           <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1602,7 +1645,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
           <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1618,7 +1660,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2159">
           <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1630,45 +1671,111 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/headline/generator/graph/DirectedGraph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="83" max-vertical-offset="1173">
-          <caret line="37" column="0" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.36183524" vertical-offset="3563" max-vertical-offset="4522">
+          <caret line="233" column="0" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/headline/generator/sentencecompression/CompressedSentenceGenerator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="584" max-vertical-offset="2380">
-          <caret line="57" column="0" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="827" max-vertical-offset="2380">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/headline/generator/graph/DirectedGraph.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/grouper/RelatedArticleFinder.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3729" max-vertical-offset="4522">
-          <caret line="233" column="0" selection-start-line="233" selection-start-column="0" selection-end-line="233" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="984" max-vertical-offset="1564">
+          <caret line="84" column="0" selection-start-line="84" selection-start-column="0" selection-end-line="84" selection-end-column="0" />
           <folding>
-            <element signature="e#5745#5751#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#534#535#0" expanded="true" />
+            <element signature="e#574#575#0" expanded="true" />
+            <element signature="e#691#699#0" expanded="true" />
+            <element signature="e#774#800#0" expanded="true" />
+            <element signature="e#1217#1237#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/UnprocessedArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="338" max-vertical-offset="935">
+          <caret line="59" column="72" selection-start-line="59" selection-start-column="72" selection-end-line="59" selection-end-column="72" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/ProcessedArticle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="82" max-vertical-offset="1615">
+          <caret line="74" column="5" selection-start-line="74" selection-start-column="5" selection-end-line="74" selection-end-column="5" />
+          <folding>
+            <element signature="e#1497#1498#0" expanded="true" />
+            <element signature="e#1526#1527#0" expanded="true" />
+            <element signature="e#1567#1568#0" expanded="true" />
+            <element signature="e#1594#1595#0" expanded="true" />
+            <element signature="e#1676#1677#0" expanded="true" />
+            <element signature="e#1725#1726#0" expanded="true" />
+            <element signature="e#1765#1766#0" expanded="true" />
+            <element signature="e#1822#1823#0" expanded="true" />
+            <element signature="e#1860#1861#0" expanded="true" />
+            <element signature="e#1930#1931#0" expanded="true" />
+            <element signature="e#1988#1989#0" expanded="true" />
+            <element signature="e#2046#2047#0" expanded="true" />
+            <element signature="e#2092#2093#0" expanded="true" />
+            <element signature="e#2156#2157#0" expanded="true" />
+            <element signature="e#2210#2211#0" expanded="true" />
+            <element signature="e#2265#2266#0" expanded="true" />
+            <element signature="e#2301#2302#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/grouper/WordDirectory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1133" max-vertical-offset="3485">
+          <caret line="78" column="0" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1691#1699#0" expanded="true" />
+            <element signature="e#2569#2603#0" expanded="true" />
+            <element signature="e#2745#2765#0" expanded="true" />
+            <element signature="e#3510#3530#0" expanded="true" />
+            <element signature="e#5396#5397#0" expanded="true" />
+            <element signature="e#5428#5429#0" expanded="true" />
+            <element signature="e#5471#5472#0" expanded="true" />
+            <element signature="e#5503#5504#0" expanded="true" />
+            <element signature="e#5548#5549#0" expanded="true" />
+            <element signature="e#5580#5581#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="17" max-vertical-offset="153">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/reader/ArticleReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
-          <caret line="20" column="85" selection-start-line="20" selection-start-column="85" selection-end-line="20" selection-end-column="85" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/iris/rainbow/article/RelatedArticleFinder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.54280823" vertical-offset="2556" max-vertical-offset="3927">
-          <caret line="177" column="37" selection-start-line="177" selection-start-column="37" selection-end-line="177" selection-end-column="37" />
-          <folding />
+        <state vertical-scroll-proportion="-0.048275862" vertical-offset="368" max-vertical-offset="1785">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2014#2032#0" expanded="true" />
+            <element signature="e#2173#2182#0" expanded="true" />
+            <element signature="e#2234#2243#0" expanded="true" />
+            <element signature="e#2297#2305#0" expanded="true" />
+            <element signature="e#2354#2362#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1750,7 +1857,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: postgresql:postgresql:9.1-901.jdbc4</last-edited>
+          <last-edited>Maven: org.jsoup:jsoup:1.8.1</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
